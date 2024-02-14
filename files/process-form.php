@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   $mensagem = $_POST["mensagem"];
 
   // Configurações do e-mail
-  $to = "danielzele01@yahoo.com.br"; // Substitua pelo seu endereço de e-mail
+  $to = "danielzele01@yahoo.com.br"; 
   $subject = "Novo formulário enviado";
   $message = "Nome: " . $nome . "\n"
             . "E-mail: " . $email . "\n"
