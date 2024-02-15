@@ -1,20 +1,21 @@
 <?php
 
-// solicitação POST
+// Verifica se a solicitação é do tipo POST
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
-  // Obter valores 
+  // Obtém os valores dos campos do formulário
   $nome = $_POST["nome"];
   $email = $_POST["email"];
   $telefone = $_POST["telefone"];
   $mensagem = $_POST["mensagem"];
 
-  $to = "danielzele01@yahoo.com.br"; 
+  // Configurações do e-mail
+  $to = "danielzele01@yahoo.com.br"; // Substitua pelo seu endereço de e-mail
   $subject = "Novo formulário enviado";
   $message = "Nome: " . $nome . "\n"
             . "E-mail: " . $email . "\n"
             . "Telefone: " . $telefone . "\n"
             . "Mensagem: " . $mensagem;
-  
+
   // Envia o e-mail
   $headers = "From: " . $email . "\r\n" .
              "Reply-To: " . $email . "\r\n" .
@@ -24,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   // Retorna uma resposta para o JavaScript
   echo "success";
 } else {
-  // Retorno Js caso erro
+  // Retorna uma resposta para o JavaScript em caso de erro
   echo "error";
 }
 ?>

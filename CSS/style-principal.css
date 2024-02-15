@@ -1,4 +1,4 @@
-/*GERAL*/
+/*PRINCIPAL*/
 
 
 * {
@@ -58,10 +58,10 @@ h2.titulo span {
 /* HOME-NAV*/
 
 header {
-  
+
   margin-top: 0px;
 
-border-radius: 15px;
+  border-radius: 15px;
 }
 
 
@@ -81,7 +81,7 @@ header.interface {
 header>.interface {
   display: flex;
   align-items: center;
- margin-left: 86px;
+  margin-left: 86px;
   justify-content: space-between;
   margin-right: 20px;
 }
@@ -97,7 +97,7 @@ header a {
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 1px;
-  
+
 
 }
 
@@ -112,7 +112,7 @@ header nav ul {
 
 header nav.menu-desktop ul li {
   display: inline-block;
-  
+
 }
 
 header .contato button {
@@ -197,8 +197,8 @@ section.topo-do-site.flexo {
 }
 
 .topo-do-site span {
-font-size: 23px;
-  margin-bottom:23px;
+  font-size: 23px;
+  margin-bottom: 23px;
 }
 
 
@@ -269,6 +269,7 @@ font-size: 23px;
 .servicos-box {
   resize: none;
 }
+
 section.servicos {
   padding: 40px 4%;
   box-shadow: 0 0 20px 10px #307c8a1a;
@@ -492,7 +493,7 @@ section.formacao.flex {
 }
 
 .formacao .txt-formacao span {
-  color:#8d6ffa;
+  color: #8d6ffa;
   display: block;
   margin-bottom: 12px;
 }
@@ -518,7 +519,7 @@ section.formacao.flex {
   padding-bottom: 30px;
   line-height: 1.5;
   font-size: 14px;
-  line-height: 2; 
+  line-height: 2;
   font-weight: 300;
   letter-spacing: 2px;
   color: #fff;
@@ -579,7 +580,7 @@ form textarea {
   padding: 20px 15px;
   color: #fff;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 17px;
 
 }
 
@@ -588,8 +589,8 @@ form textarea {
   max-height: 250px;
   padding-bottom: 270px;
   overflow: hidden;
-  
- 
+
+
 }
 
 form .btn-enviar {
@@ -603,7 +604,7 @@ form .btn-enviar {
   transition: .3s;
   font-size: 19px;
   font-weight: 500;
-  
+
 }
 
 .btn-enviar:hover {
@@ -626,8 +627,9 @@ form .btn-enviar input {
   padding: 4% 36px;
 
 }
+
 form .btn-enviar input:hover {
-  background-color: #9b39b9; 
+  background-color: #9b39b9;
 }
 
 
@@ -771,7 +773,7 @@ footer {
   margin-bottom: 2rem;
   text-align: left;
   justify-content: flex-start;
-  
+
 }
 
 .footer-section h2 {
@@ -780,12 +782,16 @@ footer {
   margin-bottom: 14px;
   text-align: left;
 }
-
+.footer-section h2 .menu-arrow {
+  margin-left: 5px;
+  transform: scale(1);
+  transition: all .2s ease-in-out;
+}
 
 .footer-section h1 {
   font-size: 1.40rem;
   margin-top: 0%;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   color: #8d6ffa;
 }
 
@@ -806,7 +812,7 @@ footer {
 }
 
 .footer-list a:hover {
-  color: #bcff02;
+  color: #71d5fd;
   text-decoration: none;
 }
 
@@ -831,30 +837,24 @@ footer {
 
 .icon-link {
   display: inline-block;
-  /* Certifica-se de que os links fiquem em linha */
   margin-right: 1px;
-  /* Ajusta o espaçamento entre os links */
   text-decoration: none;
-  /* Remove a decoração de link */
   padding: 0;
 }
 
+
 .icon-link {
-
-
   vertical-align: middle;
-  /* Alinha verticalmente a imagem ao centro do link */
-
   margin: 0;
 }
 
-.footer-section> div img {
-/* Ajuste o tamanho das imagens conforme necessário */
-  margin-right: 13px;
-
+/* ICON-REDES-SOCIAIS */
+.footer-section>div img {
+  margin-right: 7px;
   border-radius: 5px;
-  filter: brightness(2.2);
+  filter: brightness(0.01);
 }
+
 
 #footer-copyright {
   text-align: center;
@@ -866,6 +866,8 @@ footer {
 }
 
 
+
+
 /* MIDIA-FOOTER-TAMANHO-MOBILE */
 
 @media screen and (max-width: 768px) {
@@ -873,6 +875,52 @@ footer {
     flex-direction: column;
     align-items: left;
     padding: 2rem;
+
+
+
+    .footer-section {
+      width: 200px;
+    }
+
+    .footer-section h2 {
+      cursor: pointer;
+    }
+
+    .footer-section ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      position: absolute;
+      display: none;
+    }
+
+    .footer-section li {
+      display: block;
+    }
+
+    .footer-section h2:hover+.footer-list,
+    .footer-section .footer-list:hover {
+      display: block;
+    }
+
+    .footer-section .footer-list {
+      margin-top: 5px;
+    }
+
+
+    .footer-section .footer-list {
+      margin-top: 5px;
+      background-color: #020202;
+      color: #fff;
+      padding: 10px;
+      border-radius: 15px;
+      z-index: 77777;
+    }
+
+    .footer-section li:hover {
+      background-color: #060733;
+      border-radius: 15px;
+    }
   }
 
 
@@ -902,7 +950,14 @@ footer {
 
 
 
-/*==================  MIDIAS-GERAIS-RESPONSIVO-MOBILE  ====================*/
+
+
+/*==================  MIDIAS-RESPONSIVO-MOBILE-1000PX ====================*/
+
+
+
+
+
 
 
 
@@ -944,19 +999,25 @@ footer {
 
   .txt-topo-site {
     position: relative;
-    margin-top: 30px;
+    margin-top: 80px;
   }
-
+  .img-movimento{
+  border-top: 40px;
+  display: block;
+  height: auto;
+  box-shadow: 1px 2px 10px rgba(5, 250, 217, 0.247); 
+}
   .img-topo-site .img-movimento {
-    
-    border: solid 1px #03d7fd31;
-    border-radius: 9px;
+
+    border: solid 1px #8ef7cb1c;
+    border-radius: 90px;
     position: fixed;
-    top: 60px;
+    top: 80px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 7777;
     animation: flutuar 4s ease-in-out infinite alternate;
+   
   }
 
   @keyframes flutuar {
@@ -972,18 +1033,21 @@ footer {
 
   .img-topo-site {
     position: fixed;
-    top: 40px;
+    top: 70px;
     left: 3px;
     width: 100%;
 
   }
-.img-topo-site {
-  transition: opacity 1.9s 
-}
+
   .img-topo-site {
-    display: none; 
-    position: fixed; 
+    transition: opacity 1.9s
   }
+
+  .img-topo-site {
+    display: none;
+    position: fixed;
+  }
+
   .img-topo-site.hidden {
     opacity: 0;
     pointer-events: none;
@@ -994,7 +1058,6 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-
   }
 
 
@@ -1016,18 +1079,14 @@ footer {
 
 
 
-  /* cabeça da pagina disp movel */
+  /*MENU-HOME-PAGE */
 
   section.topo-do-site {
-    padding: 90px 7%;
-    /* Preenchimento interno */
+    padding: 40px 5%;
     display: flex;
-    /* Layout flex */
     justify-content: center;
 
   }
-
-
 
 
 
@@ -1038,32 +1097,21 @@ footer {
 
 
 
-
-
-  /*seção do topo-mobile*/
+  /*seção-topo-mobile*/
 
   .topo-do-site h1 span {
     margin-top: 50px;
-    /* Margem superior */
-    font-size: 20px;
-    /* Tamanho da fonte */
+    font-size: 24px;
     margin-left: 7px;
-    /* Margem esquerda */
+    
   }
 
 
 
   .txt-topo-site p {
     max-width: 90%;
-    /* Largura  */
-    margin: px;
-    /* Margens */
-    font-weight: 30;
-    /* Espessura */
+    font-weight: 300;
     letter-spacing: 1px;
-    /* Espaçamento  */
-
-    /* Altura linha */
     font-size: 17px;
   }
 
@@ -1071,15 +1119,12 @@ footer {
 
   .topo-do-site h2 span {
     text-indent: 2px;
-    /* Recuo */
     display: inline;
-    /* Elemento em linha */
     margin-left: 15px;
-    /* Margem esquerda */
     margin: 0;
-    /* Margens */
     margin-top: 20px;
   }
+
 
   .topo-do-site h1 .txt-topo-site {
     font-size: 28px;
@@ -1113,16 +1158,17 @@ footer {
     align-items: center;
     gap: 20px;
   }
-  
+
   .servicos-box {
-    color: #dfe3e7; 
+    color: #dfe3e7;
     flex: 1 0 90%;
     max-width: 200px;
     line-height: 1.1;
     box-sizing: border-box;
     width: 200px;
     height: 290px;
-    margin-right: 20px; /* Adicione a margem entre as caixas */
+    margin-right: 20px;
+    /* Adicione a margem entre as caixas */
   }
 
   @media (max-width: 720px) {
@@ -1135,12 +1181,12 @@ footer {
       width: 340px;
       /* Largura fixa de 300 pixels */
       height: 340px;
-  
-  
+
+
     }
   }
-  
-  
+
+
   .servicos-box h3 {
     margin: 8px 8px 7%;
   }
@@ -1175,10 +1221,10 @@ footer {
     height: 100%;
     object-fit: cover;
     object-position: center;
-    
+
   }
 
-  
+
   .servicos-box {
     display: flex;
     flex-direction: column;
@@ -1218,13 +1264,13 @@ footer {
     margin-left: 25px;
   }
 
-}
+
 
 .formacao {
   margin-left: 12px;
 }
 
-
+}
 
 
 /* TIRAR-BTN-MENU-PC */
@@ -1242,15 +1288,12 @@ footer {
 }
 
 .menu-mobile {
-
-
-
-
- 
- 
-
   display: none;
 }
+
+
+
+
 /* TIRA-MENU-MOBILE-DO-MENU-PRINCIPAL */
 @media screen and (max-width: 1000px) {
   .menu-mobile {
@@ -1263,13 +1306,14 @@ footer {
 /* MIDIA-SEVICOS-TAMANHO-TABLET */
 @media (min-width: 680px) and (max-width: 1000px) {
   section.servicos-box {
-  
-      display: flex;
-      flex-wrap: nowrap;
-      overflow-x: auto;
+
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
   }
+
   .servicos-box {
-     
+
     flex: 1 0 9%;
     max-width: 190px;
     line-height: 1.1;
@@ -1277,18 +1321,19 @@ footer {
     width: 190px;
     height: 400px;
 
-    }
+  }
 
-    .servicos-box p {
-      font-size: 12px;
-      font-weight: 600;
-      letter-spacing: 1px;
-      line-height: 15px;
-    }
-  
+  .servicos-box p {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 15px;
+  }
+
   .servicos-box {
-    margin-right: 0; /* Remova a margem direita */
-    margin-bottom: 4px; /* Adicione a margem inferior */
+    margin-right: 0;
+    margin-bottom: 4px;
+
   }
 }
 
@@ -1302,63 +1347,67 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    overflow-x: hidden; 
-    
+    overflow-x: hidden;
+
   }
 
   .portfolio .flex {
     display: flex;
-    flex-wrap: nowrap; /* Impedir que os elementos quebrem em várias linhas */
-    align-items: flex-start; /* Alinhar os elementos no topo */
+    flex-wrap: nowrap;
+    align-items: flex-start;
+
   }
 
-  .portfolio .flex > div {
-    
+  .portfolio .flex>div {
+
     position: relative;
     margin-left: 70px;
     margin-right: 20px;
     margin-bottom: 50px;
   }
 
-  .portfolio .flex > div:last-child {
+  .portfolio .flex>div:last-child {
     margin-right: 0;
   }
 }
-  
-  
-
-
- 
 
 
 
 
 
-  /* MIDIA-PROJETOS-PORTIFOLIO-TAMANHO-MOBILE */
-  @media screen and (max-width: 430px){
-    section.portfolio {
-      padding: 80px 8%;
-    
-    }
-  
-    .portfolio .flex {
-      display: flex;
-      flex-wrap: nowrap; /* Impedir que os elementos quebrem em várias linhas */
-      align-items: flex-start; /* Alinhar os elementos no topo */
-    }
-  
-    .portfolio .flex > div:last-child {
-      margin-right: 0;
-    }
-    
-    .img-port {
-      display: flex;
-      align-items: center;
-      position: relative;
-      width: 100%;
-      height: 460px;
-      max-width: 100%;
-      margin: 0 auto; /* Centralizando na horizontal */
-    }}
 
-    
+
+
+
+
+/* MIDIA-PROJETOS-PORTIFOLIO-TAMANHO-MOBILE */
+@media screen and (max-width: 430px) {
+  section.portfolio {
+    padding: 80px 8%;
+
+  }
+
+  .portfolio .flex {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+
+  }
+
+  .portfolio .flex>div:last-child {
+    margin-right: 0;
+  }
+
+  .img-port {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 460px;
+    max-width: 100%;
+    margin: 0 auto;
+
+  }
+}
+
+@media screen and (max-width: 1000px) {}
