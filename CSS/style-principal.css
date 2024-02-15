@@ -884,6 +884,7 @@ footer {
 
     .footer-section h2 {
       cursor: pointer;
+      
     }
 
     .footer-section ul {
@@ -910,16 +911,22 @@ footer {
 
     .footer-section .footer-list {
       margin-top: 5px;
-      background-color: #020202;
+      background-color: #05060e;
       color: #fff;
       padding: 10px;
       border-radius: 15px;
       z-index: 77777;
-      margin-top: 45px;
+      margin-top: 25px;
+      letter-spacing: 2px;
+      line-height: 2.5;
+      border-color: #07d5fa;
+      border: 1px solid #04b0ff7a;
+      border-bottom: 1px solid #211a4957; 
+      padding: 10px
     }
 
     .footer-section li:hover {
-      background-color: #060733;
+      background-color: #434344;
       border-radius: 15px;
     }
   }
@@ -928,8 +935,18 @@ footer {
   .footer-section {
     margin-bottom: 1.5rem;
   }
+
+ .footer-section a {
+  border-bottom: 1px solid #0db2ff33; /* Ajuste a cor e espessura da linha conforme necessário */
+  display: inline-block; /* Para garantir que a linha ocupe apenas a largura do link */
+  padding-bottom: 5px; /* Ajuste o espaçamento inferior conforme necessário */
 }
 
+
+
+
+
+}
 
 /* MIDIA-FOOTER-TAMANHO-MOBILE-CLOSE-02 */
 @media screen and (min-width: 769px) {
