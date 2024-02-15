@@ -937,9 +937,9 @@ footer {
   }
 
  .footer-section a {
-  border-bottom: 1px solid #0db2ff33; /* Ajuste a cor e espessura da linha conforme necessário */
-  display: inline-block; /* Para garantir que a linha ocupe apenas a largura do link */
-  padding-bottom: 5px; /* Ajuste o espaçamento inferior conforme necessário */
+  border-bottom: 1px solid #0db2ff33;
+  display: inline-block; 
+  padding-bottom: 5px; 
 }
 
 
