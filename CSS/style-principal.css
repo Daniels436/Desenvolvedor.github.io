@@ -776,9 +776,15 @@ footer {
 
 }
 
+.livros-ptbr h2 {
+font-size: 1.20rem;
+  color: #06bdc4;
+  margin-bottom: 14px;
+  text-align: left;}
+
 .footer-section h2 {
-  font-size: 1.40rem;
-  color: #a4f9fc;
+  font-size: 1.20rem;
+  color: #07cad1;
   margin-bottom: 14px;
   text-align: left;
 }
@@ -788,11 +794,12 @@ footer {
   transition: all .2s ease-in-out;
 }
 
-.footer-section h1 {
-  font-size: 1.40rem;
+footer h1 {
+  font-size: 1.50rem;
   margin-top: 0%;
   margin-bottom: 50px;
   color: #8d6ffa;
+
 }
 
 .footer-list {
@@ -816,6 +823,28 @@ footer {
   text-decoration: none;
 }
 
+
+
+.list-livros {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-livros li {
+  margin-bottom: 0.5rem;
+}
+
+.list-livros a {
+  color: #fff;
+  text-decoration: none;
+  text-align: left;
+}
+
+.list-livros a:hover {
+  color: #71d5fd;
+  text-decoration: none;
+}
 .icon-button {
   width: 50px;
   height: 50px;
@@ -849,8 +878,8 @@ footer {
 }
 
 /* ICON-REDES-SOCIAIS */
-.footer-section>div img {
-  margin-right: 7px;
+.footer-icon>div img {
+  margin-right: 4px;
   border-radius: 5px;
   filter: brightness(0.01);
 }
@@ -884,10 +913,10 @@ footer {
 
     .footer-section h2 {
       cursor: pointer;
-      
+      font-size: 1.00rem; 
     }
 
-    .footer-section ul {
+    .footer-section  ul {
       list-style: none;
       padding: 0;
       margin: 0;
@@ -898,6 +927,11 @@ footer {
     .footer-section li {
       display: block;
     }
+    .footer-section h2 span {   
+
+      font-size: 1.10rem;
+    }
+
 
     .footer-section h2:hover+.footer-list,
     .footer-section .footer-list:hover {
@@ -910,34 +944,33 @@ footer {
 
 
     .footer-section .footer-list {
-      margin-top: 5px;
-      background-color: #05060e;
+      background-color: #000000;
       color: #fff;
       padding: 10px;
       border-radius: 15px;
       z-index: 77777;
-      margin-top: 40px;
+      margin-top: 35px;
       letter-spacing: 2px;
       line-height: 2.5;
       border-color: #07d5fa;
       border: 1px solid #04b0ff7a;
-      border-bottom: 1px solid #211a4957; 
+     
       padding: 10px
     }
 
-    .footer-section li:hover {
+    .footer-section .footer-list li:hover {
       background-color: #434344;
-      border-radius: 15px;
+      border-radius: 8px;
     }
   }
 
 
-  .footer-section {
+  .footer-section .footer-list{
     margin-bottom: 1.5rem;
   }
 
  .footer-section a {
-  border-bottom: 1px solid #0db2ff33;
+  border-bottom: 1px solid #0db2ff33; 
   display: inline-block; 
   padding-bottom: 5px; 
 }
@@ -945,8 +978,8 @@ footer {
 
 
 
-
 }
+
 
 /* MIDIA-FOOTER-TAMANHO-MOBILE-CLOSE-02 */
 @media screen and (min-width: 769px) {
@@ -1429,3 +1462,49 @@ footer {
 }
 
 @media screen and (max-width: 1000px) {}
+
+
+
+
+
+/* BALAO-INFORMATIVO-TRES-PONTOS */
+.menu {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-icon {
+  display: inline-block;
+  cursor: pointer;
+  zoom: 200%;
+  
+  ;
+}
+
+.menu-content {
+  display: none;
+  position: absolute;
+  background-color: #03000a;
+  min-width: 110px;
+  min-height: 190PX;
+  padding: 10px;
+  border: 1px solid #05eecf34;
+  z-index: 1;
+  border-radius: 10px;
+  
+ box-shadow: #0120207e 0 2px 4px -1px;
+}
+
+.menu-content p {
+  margin: 0;
+  font-size: 12px;
+  font-size: color #f1eeee;
+  line-height: 16px;
+  margin-top: 12px;
+
+ 
+}
+
+.menu:hover .menu-content {
+  display: block;
+}
