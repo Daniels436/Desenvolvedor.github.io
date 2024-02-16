@@ -1485,8 +1485,8 @@ footer h1 {
   display: none;
   position: absolute;
   background-color: #03000a;
-  min-width: 110px;
-  min-height: 190PX;
+  min-width: 130px;
+  min-height: 210PX;
   padding: 10px;
   border: 1px solid #05eecf34;
   z-index: 1;
@@ -1497,7 +1497,7 @@ footer h1 {
 
 .menu-content p {
   margin: 0;
-  font-size: 12px;
+  font-size: 14px;
   font-size: color #f1eeee;
   line-height: 16px;
   margin-top: 12px;
