@@ -385,13 +385,13 @@ section.portfolio {
   position: relative;
   width: 300px;
   height: 460px;
-  background-color: #4a1264;
+  background-color: #21042e;
   background-size: cover;
   background-position: 100% 0%;
   cursor: pointer;
   border-radius: 15px;
   overflow: hidden;
-  transition: background-position 8.90s;
+  transition: background-position 10.90s;
   flex-wrap: nowrap;
 }
 
@@ -406,13 +406,13 @@ section.portfolio {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(68, 173, 243, 0.171);
+  background-color: rgba(12, 32, 43, 0.993);
   border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: opacity 0.4s;
+  transition: opacity 10.10s;
 }
 
 .img-port:hover::before {
@@ -425,7 +425,7 @@ section.portfolio {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(163, 255, 255, 0.055);
+  background-color: rgba(163, 255, 255, 0.144);
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -439,9 +439,9 @@ section.portfolio {
 }
 
 .img-port .overlay {
-  color: #020202;
+  color: #8bdff8;
   font-size: 20px;
-  font-weight: 900;
+  font-weight: 600;
   text-align: center;
   opacity: 0;
   transition: opacity 0.5s;
@@ -467,7 +467,7 @@ section.portfolio {
 section.formacao {
   padding: 30px 4%;
   text-align: left;
-  box-shadow: 0 0 20px 10px #99e9f70e;
+  box-shadow: 0 0 20px 10px #bbdbe00e;
 }
 
 section.formacao.flex {
@@ -629,7 +629,7 @@ form .btn-enviar input {
 }
 
 form .btn-enviar input:hover {
-  background-color: #9b39b9;
+  background-color: #02fd6b;
 }
 
 
@@ -757,7 +757,7 @@ footer {
   letter-spacing: 1px;
   width: 100%;
   color: #ffff;
-  background-color: #1e1d1f;
+  background-color: #182647;
   padding: 3rem 3.5rem;
   display: flex;
   justify-content: space-between;
@@ -777,17 +777,27 @@ footer {
 }
 
 .livros-ptbr h2 {
-font-size: 1.20rem;
-  color: #06bdc4;
+  font-size: 1.20rem;
+  color: #ecebf0;
   margin-bottom: 14px;
-  text-align: left;}
+  text-align: left;
+  margin-top: 20px;
+}
+
+.list-livros li a {
+  display: flex;
+  margin-top: 20px;
+}
 
 .footer-section h2 {
   font-size: 1.20rem;
-  color: #07cad1;
+  color: #f4f3f8;
   margin-bottom: 14px;
   text-align: left;
+  margin-top: 12px;
+
 }
+
 .footer-section h2 .menu-arrow {
   margin-left: 5px;
   transform: scale(1);
@@ -798,7 +808,7 @@ footer h1 {
   font-size: 1.50rem;
   margin-top: 0%;
   margin-bottom: 50px;
-  color: #8d6ffa;
+  color: #f7f6f8;
 
 }
 
@@ -819,11 +829,14 @@ footer h1 {
 }
 
 .footer-list a:hover {
-  color: #71d5fd;
+  color: #fcfeff;
   text-decoration: none;
 }
 
+.footer-list span {
+  color: #07d5fa;
 
+}
 
 .list-livros {
   list-style-type: none;
@@ -845,6 +858,7 @@ footer h1 {
   color: #71d5fd;
   text-decoration: none;
 }
+
 .icon-button {
   width: 50px;
   height: 50px;
@@ -889,12 +903,44 @@ footer h1 {
   text-align: center;
   background-color: #000;
   color: #fff;
-  font-size: 0.9rem;
-  padding: 0.9rem;
+  font-size: 0.7rem;
+  padding: 0.8rem;
   font-weight: 100;
 }
 
+.footer2 {
+  position: relative;
+  height:25px
+}
 
+.voltar {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.btn-topo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 150px;
+  height: 50px;
+}
+
+.btn-topo {
+  background-color: #333333;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  font-size: 14px;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.btn-topo:hover {
+  background-color: #18ff03;
+}
 
 
 /* MIDIA-FOOTER-TAMANHO-MOBILE */
@@ -913,10 +959,10 @@ footer h1 {
 
     .footer-section h2 {
       cursor: pointer;
-      font-size: 1.00rem; 
+      font-size: 1.00rem;
     }
-
-    .footer-section  ul {
+    
+    .footer-section ul {
       list-style: none;
       padding: 0;
       margin: 0;
@@ -927,11 +973,12 @@ footer h1 {
     .footer-section li {
       display: block;
     }
-    .footer-section h2 span {   
+
+    .footer-section h2 span {
 
       font-size: 1.10rem;
     }
-
+    
 
     .footer-section h2:hover+.footer-list,
     .footer-section .footer-list:hover {
@@ -954,7 +1001,7 @@ footer h1 {
       line-height: 2.5;
       border-color: #07d5fa;
       border: 1px solid #04b0ff7a;
-     
+
       padding: 10px
     }
 
@@ -965,15 +1012,15 @@ footer h1 {
   }
 
 
-  .footer-section .footer-list{
+  .footer-section .footer-list {
     margin-bottom: 1.5rem;
   }
 
- .footer-section a {
-  border-bottom: 1px solid #0db2ff33; 
-  display: inline-block; 
-  padding-bottom: 5px; 
-}
+  .footer-section a {
+    border-bottom: 1px solid #0db2ff33;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
 
 
 
@@ -982,11 +1029,14 @@ footer h1 {
 
 
 /* MIDIA-FOOTER-TAMANHO-MOBILE-CLOSE-02 */
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 369px) {
   .footer-section {
     align-items: flex-start;
   }
 
+
+  
+  
   .icon-button {
     justify-content: center;
   }
@@ -1003,7 +1053,7 @@ footer h1 {
 
 
 
-/*==================  MIDIAS-RESPONSIVO-MOBILE-1000PX ====================*/
+/*=====================      MIDIAS-RESPONSIVO-MOBILE-1000PX       ==========================================*/
 
 
 
@@ -1052,12 +1102,14 @@ footer h1 {
     position: relative;
     margin-top: 80px;
   }
-  .img-movimento{
-  border-top: 40px;
-  display: block;
-  height: auto;
-  box-shadow: 1px 2px 10px rgba(5, 250, 217, 0.247); 
-}
+
+  .img-movimento {
+    border-top: 40px;
+    display: block;
+    height: auto;
+    box-shadow: 1px 2px 10px rgba(5, 250, 217, 0.247);
+  }
+
   .img-topo-site .img-movimento {
 
     border: solid 1px #8ef7cb1c;
@@ -1068,7 +1120,7 @@ footer h1 {
     transform: translateX(-50%);
     z-index: 7777;
     animation: flutuar 4s ease-in-out infinite alternate;
-   
+
   }
 
   @keyframes flutuar {
@@ -1154,7 +1206,7 @@ footer h1 {
     margin-top: 50px;
     font-size: 24px;
     margin-left: 7px;
-    
+
   }
 
 
@@ -1318,9 +1370,9 @@ footer h1 {
 
 
 
-.formacao {
-  margin-left: 9px;
-}
+  .formacao {
+    margin-left: 9px;
+  }
 
 }
 
@@ -1433,9 +1485,9 @@ footer h1 {
 
 
 /* MIDIA-PROJETOS-PORTIFOLIO-TAMANHO-MOBILE */
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 460px) {
   section.portfolio {
-    padding: 80px 8%;
+    padding: 80px 2%;
 
   }
 
@@ -1455,7 +1507,7 @@ footer h1 {
     align-items: center;
     position: relative;
     width: 100%;
-    height: 460px;
+    height: 360px;
     max-width: 100%;
     margin: 0 auto;
 
@@ -1468,7 +1520,7 @@ footer h1 {
 
 
 
-/* BALAO-INFORMATIVO-TRES-PONTOS */
+/* MENU-INFORMATIVO-TRES-PONTINHOS */
 .menu {
   position: relative;
   display: inline-block;
@@ -1477,8 +1529,8 @@ footer h1 {
 .menu-icon {
   display: inline-block;
   cursor: pointer;
-  zoom: 200%;
-  
+  zoom: 190%;
+
   ;
 }
 
@@ -1486,24 +1538,24 @@ footer h1 {
   display: none;
   position: absolute;
   background-color: #03000a;
-  min-width: 110px;
-  min-height: 190PX;
+  min-width: 140px;
+  min-height: 210PX;
   padding: 10px;
   border: 1px solid #05eecf34;
   z-index: 1;
   border-radius: 10px;
-  
- box-shadow: #0120207e 0 2px 4px -1px;
+
+  box-shadow: #0120207e 0 2px 4px -1px;
 }
 
 .menu-content p {
   margin: 0;
-  font-size: 12px;
+  font-size: 14px;
   font-size: color #f1eeee;
   line-height: 16px;
   margin-top: 12px;
+  line-height: 1.5;
 
- 
 }
 
 .menu:hover .menu-content {
@@ -1516,7 +1568,7 @@ footer h1 {
 
 
   h2.titulo {
-  
+
     font-size: 20px;
     text-align: center;
     padding: 20px;
@@ -1528,21 +1580,21 @@ footer h1 {
 
 
   .topo-do-site h1 {
-  
+
     font-size: 20px;
     max-width: 100%;
     text-align: left;
     margin: 0;
-  
+
   }
-  
+
 
 
   .topo-do-site p {
     max-width: 100%;
     margin: 0;
     margin-left: 7px;
-    width: 100% ;
+    width: 100%;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 1.0px;
@@ -1552,27 +1604,24 @@ footer h1 {
     line-height: 1.5;
     margin-left: 6px;
   }
-  
+
 
   .topo-do-site p {
     margin-left: 9px;
   }
+
   .topo-do-site h1 span {
     color: #8d6ffa;
     font-size: 20px
-    
-  
-  
-  
   }
-  
 
-  
+
+
   .topo-do-site span {
     font-size: 20px;
     margin-left: 9px;
   }
-  
+
   .topo-do-site span {
     font-size: 20px;
     margin-bottom: 10px;
@@ -1584,12 +1633,12 @@ footer h1 {
   formacao .txt-formacao h2 {
     font-size: 20px;
     margin-left: 9px;
-  
-  
+
+
   }
-  
+
   .formacao .txt-formacao span {
-  
+
     display: block;
     margin-bottom: 12px;
 
@@ -1608,7 +1657,6 @@ footer h1 {
     line-height: 2;
     font-weight: 500;
     letter-spacing: 1px;
-    
+
   }
 }
-
