@@ -1164,6 +1164,7 @@ footer h1 {
     font-weight: 300;
     letter-spacing: 1px;
     font-size: 17px;
+    margin-left: 07px;
   }
 
 
@@ -1171,7 +1172,7 @@ footer h1 {
   .topo-do-site h2 span {
     text-indent: 2px;
     display: inline;
-    margin-left: 15px;
+    margin-left: 7px;
     margin: 0;
     margin-top: 20px;
   }
@@ -1318,7 +1319,7 @@ footer h1 {
 
 
 .formacao {
-  margin-left: 12px;
+  margin-left: 9px;
 }
 
 }
@@ -1485,8 +1486,8 @@ footer h1 {
   display: none;
   position: absolute;
   background-color: #03000a;
-  min-width: 130px;
-  min-height: 210PX;
+  min-width: 110px;
+  min-height: 190PX;
   padding: 10px;
   border: 1px solid #05eecf34;
   z-index: 1;
@@ -1497,10 +1498,10 @@ footer h1 {
 
 .menu-content p {
   margin: 0;
-  font-size: 16px;
+  font-size: 12px;
   font-size: color #f1eeee;
   line-height: 16px;
-  margin-top: 14px;
+  margin-top: 12px;
 
  
 }
@@ -1508,3 +1509,106 @@ footer h1 {
 .menu:hover .menu-content {
   display: block;
 }
+
+/*FONTES-PRINCIPAIS-TAMNHO-MOBILE */
+@media (min-width: 280px) and (max-width:460px) {
+
+
+
+  h2.titulo {
+  
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+  }
+
+
+
+
+  .topo-do-site h1 {
+  
+    font-size: 20px;
+    max-width: 100%;
+    text-align: left;
+    margin: 0;
+  
+  }
+  
+
+
+  .topo-do-site p {
+    max-width: 100%;
+    margin: 0;
+    margin-left: 7px;
+    width: 100% ;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1.0px;
+    line-height: 2px;
+    text-align: left;
+    margin-top: 14px;
+    line-height: 1.5;
+    margin-left: 6px;
+  }
+  
+
+  .topo-do-site p {
+    margin-left: 9px;
+  }
+  .topo-do-site h1 span {
+    color: #8d6ffa;
+    font-size: 20px
+    
+  
+  
+  
+  }
+  
+
+  
+  .topo-do-site span {
+    font-size: 20px;
+    margin-left: 9px;
+  }
+  
+  .topo-do-site span {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 9px;
+  }
+
+
+
+  formacao .txt-formacao h2 {
+    font-size: 20px;
+    margin-left: 9px;
+  
+  
+  }
+  
+  .formacao .txt-formacao span {
+  
+    display: block;
+    margin-bottom: 12px;
+
+
+
+  }
+
+
+
+
+  .formacao .txt-formacao p {
+    margin-right: 6px;
+    padding-bottom: 14px;
+    line-height: 1.0;
+    font-size: 14px;
+    line-height: 2;
+    font-weight: 500;
+    letter-spacing: 1px;
+    
+  }
+}
+
