@@ -383,7 +383,7 @@ section.portfolio {
 
 .img-port {
   position: relative;
-  width: 300px;
+  width: 360px;
   height: 460px;
   background-color: #21042e;
   background-size: cover;
@@ -406,7 +406,7 @@ section.portfolio {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(12, 32, 43, 0.993);
+  background-color: rgba(0, 0, 0, 0.993);
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -439,9 +439,9 @@ section.portfolio {
 }
 
 .img-port .overlay {
-  color: #8bdff8;
+  color: #f5f9fa;
   font-size: 20px;
-  font-weight: 600;
+  font-weight:bold;
   text-align: center;
   opacity: 0;
   transition: opacity 0.5s;
@@ -743,7 +743,7 @@ button {
 
 
 
-/* FOOTER-CONVENCIONAL */
+/* FOOTER-PRINCIPAL */
 :root {
   color: #171717;
   color: #f5f5f5;
@@ -790,18 +790,18 @@ footer {
 }
 
 .footer-section h2 {
-  font-size: 1.20rem;
+  font-size: 1.40rem;
   color: #f4f3f8;
   margin-bottom: 14px;
   text-align: left;
-  margin-top: 12px;
+  margin-top: 20px;
 
 }
 
 .footer-section h2 .menu-arrow {
   margin-left: 5px;
-  transform: scale(1);
-  transition: all .2s ease-in-out;
+  transform: scale(2);
+  transition: all .7s ease-in-out;
 }
 
 footer h1 {
@@ -833,8 +833,15 @@ footer h1 {
   text-decoration: none;
 }
 
-.footer-list span {
-  color: #07d5fa;
+.menu-arrow {
+  color: #07d0f3;
+  vertical-align: -2px;
+  font-size: 18px;
+}
+.menu-arrow :before {
+  content: "\f0da";
+  display: inline-block;
+font-size:  inherit;
 
 }
 
@@ -921,9 +928,9 @@ footer h1 {
 
 .btn-topo {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 150px;
+  bottom: 40px;
+  right: 10px;
+  width: 100px;
   height: 50px;
 }
 
@@ -932,7 +939,7 @@ footer h1 {
   color: #fff;
   text-align: center;
   line-height: 50px;
-  font-size: 14px;
+  font-size: 16px;
   border-radius: 12px;
   text-decoration: none;
   transition: background-color 0.3s;
@@ -960,7 +967,7 @@ footer h1 {
 
     .footer-section h2 {
       cursor: pointer;
-      font-size: 1.00rem;
+      font-size: 1.30rem;
     }
     
     .footer-section ul {
@@ -977,7 +984,7 @@ footer h1 {
 
     .footer-section h2 span {
 
-      font-size: 1.10rem;
+      font-size: 1.40rem;
     }
     
 
@@ -988,22 +995,24 @@ footer h1 {
 
     .footer-section .footer-list {
       margin-top: 5px;
+      box-shadow: #04395856 0.2em 0.2em 0;
     }
 
 
     .footer-section .footer-list {
-      background-color: #000000;
+      background-color: #141f3a;
       color: #fff;
       padding: 10px;
       border-radius: 15px;
       z-index: 77777;
-      margin-top: 35px;
+      margin-top: 45px;
       letter-spacing: 2px;
-      line-height: 2.5;
-      border-color: #07d5fa;
-      border: 1px solid #04b0ff7a;
-
+      line-height: 2.2;
+      border-color: #07d5fa10;
+      border: 1px solid #04ff6423;
+margin-left: 14px;
       padding: 10px
+    
     }
 
     .footer-section .footer-list li:hover {
@@ -1564,14 +1573,14 @@ footer h1 {
 }
 
 
-/*TAMNHO-DAS-FONTES-PRINCIPAIS-MOBILE-460PX*/
+/*TAMANHO-DAS-FONTES-PRINCIPAIS-MOBILE-460PX*/
 @media (min-width: 280px) and (max-width:460px) {
 
 
 
   h2.titulo {
 
-    font-size: 23px;
+    font-size: 25px;
     text-align: center;
     padding: 20px;
     margin-top: 20px;
@@ -1581,60 +1590,41 @@ footer h1 {
 
 
 
-  .topo-do-site h1 {
+  .topo-do-site h1,
+.topo-do-site p,
+.topo-do-site span {
+  margin: 0;
+  padding: 0.01rem;
+}
 
-    font-size: 20px;
-    max-width: 100%;
-    text-align: left;
-    margin: 0;
+.topo-do-site h1 {
+  font-size: 20px;
+  max-width: 100%;
+  text-align: left;
+}
 
-  }
+.topo-do-site p {
+  max-width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1.0px;
+  line-height: 1.5;
+  margin-top: 14px;
+  margin-bottom: 0;
+}
 
-
-
-  .topo-do-site p {
-    max-width: 100%;
-    margin: 0;
-    margin-left: 7px;
-    width: 100%;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 1.0px;
-    line-height: 2px;
-    text-align: left;
-    margin-top: 14px;
-    line-height: 1.5;
-    margin-left: 6px;
-  }
-
-
-  .topo-do-site p {
-    margin-left: 9px;
-  }
-
-  .topo-do-site h1 span {
-    color: #8d6ffa;
-    font-size: 20px
-  }
-
-
-
-  .topo-do-site span {
-    font-size: 20px;
-    margin-left: 9px;
-  }
-
-  .topo-do-site span {
-    font-size: 20px;
-    margin-bottom: 10px;
-    margin-left: 9px;
-  }
+.topo-do-site h1 span,
+.topo-do-site span {
+  font-size: 20px;
+  color: #8d6ffa;
+  margin-left: 1px;
+}
 
 
 
   formacao .txt-formacao h2 {
     font-size: 20px;
-    margin-left: 9px;
+    margin-left: 14px;
 
 
   }
@@ -1661,4 +1651,23 @@ footer h1 {
     letter-spacing: 1px;
 
   }
+}
+
+
+/* BALAO-INFORMATIVO-DE-TOPO-DA-PAGINA */
+
+
+.balao-informativo {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 999999;
+  font-size: 15px;
+  font-weight: 500; 
+  color: #000;
 }
