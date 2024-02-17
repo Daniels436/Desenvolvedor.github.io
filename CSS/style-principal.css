@@ -936,11 +936,11 @@ footer h1 {
   border-radius: 12px;
   text-decoration: none;
   transition: background-color 0.3s;
+  z-index: 77777;
 }
 
 .btn-topo:hover {
   background-color: #18ff03;
-  z-index: 888888;
 }
 
 
