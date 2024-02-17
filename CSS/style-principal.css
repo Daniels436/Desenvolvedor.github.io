@@ -441,7 +441,7 @@ section.portfolio {
 .img-port .overlay {
   color: #f5f9fa;
   font-size: 20px;
-  font-weight:bold;
+  font-weight: bold;
   text-align: center;
   opacity: 0;
   transition: opacity 0.5s;
@@ -782,6 +782,7 @@ footer {
   margin-bottom: 14px;
   text-align: left;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .list-livros li a {
@@ -802,6 +803,7 @@ footer {
   margin-left: 5px;
   transform: scale(2);
   transition: all .7s ease-in-out;
+  cursor: pointer;
 }
 
 footer h1 {
@@ -829,7 +831,7 @@ footer h1 {
 }
 
 .footer-list a:hover {
-  color: #fcfeff;
+  color: #3db9f7;
   text-decoration: none;
 }
 
@@ -838,10 +840,11 @@ footer h1 {
   vertical-align: -2px;
   font-size: 18px;
 }
+
 .menu-arrow :before {
   content: "\f0da";
   display: inline-block;
-font-size:  inherit;
+  font-size: inherit;
 
 }
 
@@ -882,7 +885,7 @@ font-size:  inherit;
   margin-bottom: 1rem;
   text-align: left;
   font-size: 12px;
-
+  font-weight: 600;
 }
 
 .icon-link {
@@ -917,7 +920,7 @@ font-size:  inherit;
 
 .footer2 {
   position: relative;
-  height:25px
+  height: 25px
 }
 
 .voltar {
@@ -969,7 +972,7 @@ font-size:  inherit;
       cursor: pointer;
       font-size: 1.30rem;
     }
-    
+
     .footer-section ul {
       list-style: none;
       padding: 0;
@@ -986,7 +989,7 @@ font-size:  inherit;
 
       font-size: 1.40rem;
     }
-    
+
 
     .footer-section h2:hover+.footer-list,
     .footer-section .footer-list:hover {
@@ -995,12 +998,12 @@ font-size:  inherit;
 
     .footer-section .footer-list {
       margin-top: 5px;
-      box-shadow: #04395856 0.2em 0.2em 0;
+      box-shadow: #0e0e0ebb 0.4em 0.1em 0.6em;
     }
 
 
     .footer-section .footer-list {
-      background-color: #141f3a;
+      background-color: #223053;
       color: #fff;
       padding: 10px;
       border-radius: 15px;
@@ -1008,16 +1011,15 @@ font-size:  inherit;
       margin-top: 45px;
       letter-spacing: 2px;
       line-height: 2.2;
-      border-color: #07d5fa10;
-      border: 1px solid #04ff6423;
-margin-left: 14px;
+      border-color: #07d5fa46;
+      border: 1px solid #04ffea00;
+      margin-left: 14px;
       padding: 10px
-    
     }
 
     .footer-section .footer-list li:hover {
-      background-color: #434344;
-      border-radius: 8px;
+      background-color: #151122;
+      border-radius: 5px;
     }
   }
 
@@ -1027,7 +1029,7 @@ margin-left: 14px;
   }
 
   .footer-section a {
-    border-bottom: 1px solid #0db2ff33;
+    border-bottom:  1px solid #0db2ff13;
     display: inline-block;
     padding-bottom: 5px;
   }
@@ -1045,8 +1047,8 @@ margin-left: 14px;
   }
 
 
-  
-  
+
+
   .icon-button {
     justify-content: center;
   }
@@ -1471,6 +1473,7 @@ margin-left: 14px;
     align-items: flex-start;
 
   }
+
   .portfolio .flex>div {
 
     position: relative;
@@ -1496,34 +1499,35 @@ margin-left: 14px;
 
 /* MIDIA-PROJETOS-PORTIFOLIO-TAMANHO-MOBILE */
 @media screen and (max-width: 460px) {
-.section.portfolio {
-  padding: 30px 6%;
+  .section.portfolio {
+    padding: 30px 6%;
+  }
+
+  .portfolio .flex>div {
+
+    position: relative;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+  }
+
+  .img-port {
+    position: relative;
+    width: 100vw;
+    height: 430px;
+    max-width: 330PX;
+    background-size: cover;
+    cursor: pointer;
+    overflow: hidden;
+    object-fit: cover;
+
+  }
+
+  .portfolio .flex>div:last-child {
+    margin-right: 0;
+  }
 }
 
-.portfolio .flex>div {
-
-  position: relative;
-  margin-left: 10px;
-  margin-right: 20px;
-  margin-bottom: 50px;
-}
-
-.img-port {
-  position: relative;
-  width: 100vw;
-  height: 430px;
-  max-width: 330PX;
-  background-size: cover;
-  cursor: pointer;
-  overflow: hidden;
-  object-fit: cover; 
-
-}
-
-.portfolio .flex>div:last-child {
-  margin-right: 0;
-}
-}
 @media screen and (max-width: 1000px) {}
 
 
@@ -1541,7 +1545,7 @@ margin-left: 14px;
   cursor: pointer;
   zoom: 190%;
 
-  
+
 }
 
 .menu-content {
@@ -1591,34 +1595,34 @@ margin-left: 14px;
 
 
   .topo-do-site h1,
-.topo-do-site p,
-.topo-do-site span {
-  margin: 0;
-  padding: 0.01rem;
-}
+  .topo-do-site p,
+  .topo-do-site span {
+    margin: 0;
+    padding: 0.01rem;
+  }
 
-.topo-do-site h1 {
-  font-size: 20px;
-  max-width: 100%;
-  text-align: left;
-}
+  .topo-do-site h1 {
+    font-size: 20px;
+    max-width: 100%;
+    text-align: left;
+  }
 
-.topo-do-site p {
-  max-width: 100%;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 1.0px;
-  line-height: 1.5;
-  margin-top: 14px;
-  margin-bottom: 0;
-}
+  .topo-do-site p {
+    max-width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1.0px;
+    line-height: 1.5;
+    margin-top: 14px;
+    margin-bottom: 0;
+  }
 
-.topo-do-site h1 span,
-.topo-do-site span {
-  font-size: 20px;
-  color: #8d6ffa;
-  margin-left: 1px;
-}
+  .topo-do-site h1 span,
+  .topo-do-site span {
+    font-size: 20px;
+    color: #8d6ffa;
+    margin-left: 1px;
+  }
 
 
 
@@ -1668,6 +1672,6 @@ margin-left: 14px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   z-index: 999999;
   font-size: 15px;
-  font-weight: 500; 
+  font-weight: 500;
   color: #000;
 }
