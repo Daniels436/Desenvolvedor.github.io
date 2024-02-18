@@ -879,7 +879,10 @@ footer h1 {
   margin-left: 0;
   padding-left: 0;
 }
-
+.input-icon p{
+  font: 500;
+  cursor: pointer;
+}
 .footer-subscribe p {
   color: #fff;
   margin-bottom: 1rem;
@@ -931,22 +934,23 @@ footer h1 {
 
 .btn-topo {
   position: fixed;
-  bottom: 40px;
-  right: 10px;
+  bottom: 20px;
+  right: 20px;
   width: 100px;
   height: 50px;
 }
 
 .btn-topo {
-  background-color: #333333;
+  background-color: #0c0c0ca4;
   color: #fff;
   text-align: center;
   line-height: 50px;
-  font-size: 16px;
+  font-size: 20px;
   border-radius: 12px;
   text-decoration: none;
   transition: background-color 0.3s;
-  z-index: 77777;
+  z-index: 7777;
+  box-shadow: #ffffff17 0.4em 0.1em 0.6em;
 }
 
 .btn-topo:hover {
