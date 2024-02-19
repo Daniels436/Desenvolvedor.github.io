@@ -15,6 +15,9 @@ body {
   background-color: #000
 }
 
+.logo {
+  display: none;
+}
 
 .interface {
   max-width: 1280px;
@@ -797,6 +800,8 @@ footer {
   text-align: left;
   margin-top: 20px;
 
+
+
 }
 
 .footer-section h2 .menu-arrow {
@@ -835,11 +840,8 @@ footer h1 {
   text-decoration: none;
 }
 
-.menu-arrow {
-  color: #07d0f3;
-  vertical-align: -2px;
-  font-size: 18px;
-}
+
+
 
 .menu-arrow :before {
   content: "\f0da";
@@ -879,10 +881,16 @@ footer h1 {
   margin-left: 0;
   padding-left: 0;
 }
-.input-icon p{
-  font: 500;
-  cursor: pointer;
+
+
+footer p {
+  font-weight: 200;
+  font-size: small;
+  font-size: 13px;
+  justify-content: center;
+  color: #02fd6b;
 }
+
 .footer-subscribe p {
   color: #fff;
   margin-bottom: 1rem;
@@ -941,16 +949,16 @@ footer h1 {
 }
 
 .btn-topo {
-  background-color: #0c0c0ca4;
+  background-color: #0c0c0c86;
   color: #fff;
   text-align: center;
   line-height: 50px;
-  font-size: 20px;
+  font-size: 16px;
   border-radius: 12px;
   text-decoration: none;
   transition: background-color 0.3s;
   z-index: 7777;
-  box-shadow: #ffffff17 0.4em 0.1em 0.6em;
+  box-shadow: #0c0c0c25 0.4em 0.1em 0.6em;
 }
 
 .btn-topo:hover {
@@ -1030,10 +1038,12 @@ footer h1 {
 
   .footer-section .footer-list {
     margin-bottom: 1.5rem;
+
+    
   }
 
   .footer-section a {
-    border-bottom:  1px solid #0db2ff13;
+    border-bottom: 1px solid #0db2ff13;
     display: inline-block;
     padding-bottom: 5px;
   }
@@ -1041,6 +1051,18 @@ footer h1 {
 
 
 
+
+
+
+  .menu-arrow {
+    color: #03d6fc;
+    vertical-align: -2px;
+    zoom: 119%;
+    font-style: bold;
+  }
+
+
+  /* ...........´´´............... */
 }
 
 
