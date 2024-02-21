@@ -1,5 +1,8 @@
 /* Estilos para o cabeçalho */
-
+body{background-color: #e6e7e9;
+margin-left: 40px;
+padding: 80px;
+}
 header {
   background-color: #f2f2f2;
   padding: 1px;
@@ -60,11 +63,15 @@ nav ul li a {
   text-decoration: none;
   color: #333333;
   margin-left: 5px;
+  
 }
+
 
 header {
   margin-top: 5px;
+  margin-left:2px;
   box-shadow: #0e0e0e48 0.1em 0.1em 0.1em;
+  
 }
 
 
@@ -87,10 +94,10 @@ header li:hover {
 
 /* Estilos para o conteúdo */
 article {
-  background-color: #fff;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  background-color: e6e7e;
+
+
+  
   font-family: 'Roboto', sans-serif;
   border-radius: 15px;
 }
@@ -399,6 +406,21 @@ nav.index a {
   }
 
 
+
+  /* Estilos para o botão de  */
+#like-button {
+  position: fixed;
+  background-color: #09ff1193;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 9px;
+  right:12px ;
+  bottom: 12px;
+}
+
   footer p  {
     
     font-size: 9px;
@@ -406,3 +428,15 @@ nav.index a {
   margin-right: 7px;
   }
 }
+
+@media screen and (max-width: 800px){
+  
+    body{background-color: #e6e7e9;
+      margin-left: 1px;
+      padding: 1px;
+      }
+
+  }
+
+
+ 
