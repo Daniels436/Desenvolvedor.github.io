@@ -1,5 +1,5 @@
 /* Estilos para o cabeçalho */
-body{background-color: #e6e7e9;
+body{background-color: #edeef0;
 margin-left: 40px;
 padding: 80px;
 }
@@ -11,31 +11,39 @@ header {
   border-radius: 10px;
   margin-bottom: 10px;
   margin-top: 4px;
+  
 
 }
-.primo a {
+
+header.primo {
+  position: relative;
+  z-index: 99999;
+  top: 0%;
+}
+.primo nav a {
   color: #9090b4;
   text-decoration: none;
   display: inline-block;
   transition: .3s;
   padding: 1px 6px;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 1px;
 
 }
 header a:hover {
   color: #6136fc;
-  transform: scale(1.02);
+  transform: scale(1.04);
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 32px;
   color: #a288fd;
   margin: 0;
   font-weight: 900;
   font-style: bold;
-  margin-left: 5px;
+  margin-left: 13px;
+  margin-top: 7px;
 }
 
 
@@ -45,7 +53,7 @@ nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  border-radius: 10px;
+  border-radius: 8px;
   margin-bottom: 5px;
   margin-top: 5px;
   margin-left: 5px;
@@ -83,7 +91,7 @@ header {
   font-family: 'Roboto', sans-serif;
   border-color: #07d5fa46;
   border: 1px solid #04ffea00; 
-
+max-width: 1110px;
 
 }
 
@@ -94,7 +102,7 @@ header li:hover {
 
 /* Estilos para o conteúdo */
 article {
-  background-color: e6e7e;
+  background-color: #edeef0;
 
 
   
@@ -226,15 +234,16 @@ img {
 /* Overlay  */
 .container-i::before {
   content: '';
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  /*Altura do corte*/
   background-color: rgba(0, 0, 0, 0.192);
-  /* Cor do overlay*/
-  z-index: 1;
+  z-index: 9999999;
+ 
+  bottom: 7px;
+  right: 7px;
 }
 
 
@@ -242,17 +251,17 @@ img {
 .container-i::before {
   content: ' Imagem por Pixabay';
   position: absolute;
-  bottom: 10px;
-  /* vertical  */
-  right: 10px;
-  /*  horizontal */
   padding: 5px 10px;
   background-color: rgba(0, 0, 0, 0.247);
-  color: #05b8ff;
-  font-size: 10px;
-  z-index: 2;
-  font-weight: 600;
+  color: #f1f4f5;
+  font-size: 11px;
+  z-index: 777777;
+  font-weight: 1000;
   font-style: bold;
+  bottom: 7px;
+  right: 0;
+  
+  
 
 }
 
@@ -271,7 +280,7 @@ img {
 nav.index {
   background-color: #f2f2f2;
   padding: 10px;
-  max-width: 400px;
+  max-width: 500px;
   margin-bottom: 20px;
   margin-top: 20px;
   border-radius: 15px;
