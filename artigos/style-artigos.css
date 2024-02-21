@@ -371,4 +371,11 @@ nav.index a {
     overflow-x: hidden;
     align-items: center;
   }
+
+
+footer p  {
+  font-size: 9px;
+   margin-left: 5px;
+}
+  
 }
