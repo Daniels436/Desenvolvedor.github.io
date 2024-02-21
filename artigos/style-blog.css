@@ -1,5 +1,4 @@
 /* Estilos para o cabeçalho */
-body
 
 header {
   background-color: #f2f2f2;
@@ -334,4 +333,12 @@ nav.index a {
 
 .icon-img:hover {
   opacity: 0.4;
+}
+
+@media screen and (max-width: 460px){
+  body{
+    max-width: 460px;
+    overflow-x: hidden;
+    align-items: center;
+  }
 }
