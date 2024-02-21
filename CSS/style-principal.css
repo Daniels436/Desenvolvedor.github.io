@@ -843,12 +843,6 @@ footer h1 {
 
 
 
-.menu-arrow :before {
-  content: "\f0da";
-  display: inline-block;
-  font-size: inherit;
-
-}
 
 .list-livros {
   list-style-type: none;
@@ -949,7 +943,7 @@ footer p {
 }
 
 .btn-topo {
-  background-color: #0c0c0c86;
+  background-color: #45fc2034;
   color: #fff;
   text-align: center;
   line-height: 50px;
@@ -958,13 +952,23 @@ footer p {
   text-decoration: none;
   transition: background-color 0.3s;
   z-index: 7777;
-  box-shadow: #0c0c0c25 0.4em 0.1em 0.6em;
+  box-shadow: #0c0c0c54 0.4em 0.1em 0.6em;
 }
 
 .btn-topo:hover {
-  background-color: #18ff03;
+  background-color: #1dc50e;
+}
+.menu-arrow {
+  color: #03d6fc;
+  vertical-align: -2px;
+  zoom: 78%;
+  font-style: bold;
 }
 
+
+.icon-button {
+  justify-content: center;
+}
 
 /* MIDIA-FOOTER-TAMANHO-MOBILE */
 
@@ -1001,7 +1005,7 @@ footer p {
 
       font-size: 1.40rem;
     }
-
+    
 
     .footer-section h2:hover+.footer-list,
     .footer-section .footer-list:hover {
@@ -1049,17 +1053,8 @@ footer p {
   }
 
 
+  
 
-
-
-
-
-  .menu-arrow {
-    color: #03d6fc;
-    vertical-align: -2px;
-    zoom: 95%;
-    font-style: bold;
-  }
 
 
   /* ...........´´´............... */
@@ -1074,16 +1069,23 @@ footer p {
 
 
 
-
-  .icon-button {
-    justify-content: center;
+  .menu-arrow :before {
+    content: "\f0da";
+    display: inline-block;
+    font-size: inherit;
+  
   }
+
+ 
 }
 
 
+@media (min-width:870px) and (max-width: 1900px) {
+.menu-arrow{
+  display: none;
+}
 
-
-
+}
 
 
 
