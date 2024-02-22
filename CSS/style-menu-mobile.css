@@ -158,7 +158,10 @@ nav.menu-mobile ul li {
     display: block;
 }
 
+.mid-principal{
 
+    display: none;
+}
 
 
 .overlay-menu {
