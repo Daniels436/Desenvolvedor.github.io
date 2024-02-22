@@ -55,11 +55,11 @@ header.duo {
   height: 6%;
   object-fit: cover;
   display: block;
-  margin: 0;
+  
   margin-left: 7px;
 margin-top: 7px;
 min-width: 33px;
-max-width: 33px;
+max-width: 36px;
 
 }
 .primo nav a {
@@ -510,5 +510,11 @@ nav.index a {
     margin-left: 9px;
     padding: 6px;
   }
-
+  .primo nav img {
+    display: none;
+    
+    }
+.primo h1{
+  margin-left: 7px;
+}
 }
