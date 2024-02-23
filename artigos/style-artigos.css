@@ -11,7 +11,7 @@ body {
 }
 
 header.duo {
-  background-color: #e3e7e6bd;
+  background-color: hsl(165, 8%, 90%);
   padding: 1px;
   margin-left: 5px;
   font-family: 'Roboto', sans-serif;
@@ -26,7 +26,7 @@ header.duo {
   margin-top: 7px;
   margin-bottom: 7px;
   margin-left: 50px;
-  
+
 }
 
 .primo {
@@ -67,7 +67,7 @@ header.duo {
 }
 
 .primo nav a {
-  color: #9090b4;
+  color: #8d8dd3;
   text-decoration: none;
   display: inline-block;
   transition: .3s;
@@ -76,6 +76,11 @@ header.duo {
   font-weight: 600;
   letter-spacing: 1px;
   margin-top: 4px;
+}
+
+.primo nav a:hover {
+  transform: translateY(-1px);
+  color: #575e68;
 }
 
 .primo {
@@ -101,7 +106,7 @@ header.duo {
 
 
 header a:hover {
-  color: #6136fc;
+  color: #6136fcc4;
   transform: scale(1.04);
 }
 
@@ -157,42 +162,49 @@ header {
 
 }
 
-header li:hover {
-  background-color: #3ee2a902;
-  border-radius: 5px;
+.primo li:hover {
+  background-color: #3ee2a98c;
+  padding: 7px 9px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;transform: translateY(1.0px)
 }
+
 header h2 {
   margin-bottom: 50px;
   margin-left: 20px;
   font-size: 30px;
-  font-display:  block;
+  font-display: block;
   font-weight: 600;
+  text-align: left;
 
 
 }
+
 /* Estilos para o conteúdo */
 article {
   background-color: #e3e7e6;
-padding-bottom: 90px;
+  padding-bottom: 90px;
   font-family: 'Roboto', sans-serif;
-  
+
 }
 
 h2 {
-  margin-left: 90px;
+
   margin-bottom: 10px;
-  font-weight: 500;
+  font-weight: 600;
   font-style: bold;
   margin-right: 5px;
   line-height: 1.4;
+  text-align: center;
+
 
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 22px;
   color: #000;
-  margin: 70 30 10px;
-  margin-top: 90px
+  margin-top: 50px
 }
 
 h4 {
@@ -212,7 +224,6 @@ p {
   font-size: large;
   margin-left: 5px;
   margin-bottom: 15px;
-padding-top: 15px;
 }
 
 img {
@@ -231,7 +242,7 @@ footer {
   border-radius: 10px;
   margin-top: 5px;
   box-shadow: #0e0e0e48 0.1em 0.1em 0.1em;
-  
+
 }
 
 footer p {
@@ -263,19 +274,19 @@ footer h4 {
 /* Estilos para o botão de  */
 #like-button {
   position: fixed;
-  background-color: #4CAF50;
+  background-color: #2dbb32;
   color: white;
   border: none;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
   border-radius: 4px;
-  right: 7px;
-  bottom: 7px;
+  right: 14px;
+  bottom: 14px;
 }
 
 #like-button:hover {
-  background-color: #45a049;
+  background-color: #1ae424;
 }
 
 img {
@@ -490,7 +501,17 @@ nav.index a {
     align-items: center;
   }
 
+  h2 {
 
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-style: bold;
+    margin-right: 5px;
+    line-height: 1.4;
+    text-align: center;
+
+
+  }
 
   /* Estilos para o botão de  */
   #like-button {
@@ -500,8 +521,7 @@ nav.index a {
     border: none;
     padding: 10px 20px;
     font-size: 20px;
-    cursor: pointer;
-    border-radius: 10px;
+    font-weight: 700;
     right: 12px;
     bottom: 12px;
   }
