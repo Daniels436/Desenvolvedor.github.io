@@ -2,16 +2,19 @@
 body {
   background-color: #e3e7e6;
   margin-top: 80px;
-  margin-left: 40px;
-  padding: 90px;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-top: 80px;
+  padding: 20px;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
 }
 
 header.duo {
-  background-color: #e3e7e6;
+  background-color: #e3e7e6bd;
   padding: 1px;
   margin-left: 5px;
   font-family: 'Roboto', sans-serif;
-  
   margin-bottom: 20px;
   margin-top: 40px;
 
@@ -22,6 +25,7 @@ header.duo {
 .primo h1 {
   margin-top: 7px;
   margin-bottom: 7px;
+  margin-left: 50px;
   
 }
 
@@ -43,7 +47,7 @@ header.duo {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #edeef0;
+  background-color: #edeef0c4;
   display: flex;
   justify-content: space-between;
   box-shadow: #b3b1b1b4 0.2em 0.1em 0.2em;
@@ -54,31 +58,36 @@ header.duo {
   height: 6%;
   object-fit: cover;
   display: block;
-  
-  margin-left: 7px;
-margin-top: 7px;
-min-width: 33px;
-max-width: 36px;
+  margin-top: 7px;
+  min-width: 15px;
+  max-width: 40px;
+  margin-bottom: 7px;
+  margin-left: 5px;
 
 }
+
 .primo nav a {
   color: #9090b4;
   text-decoration: none;
   display: inline-block;
   transition: .3s;
-  padding: 7px 7px;
+  padding: 9px 9px;
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 1px;
-margin-top: 4px;
+  margin-top: 4px;
 }
+
 .primo {
   display: flex;
   align-items: center;
 }
-.primo img{
-position:fixed;
+
+.primo img {
+  position: fixed;
   z-index: 999999;
+  margin-bottom: 12px;
+
 }
 
 .primo nav {
@@ -102,8 +111,8 @@ h1 {
   margin: 0;
   font-weight: 900;
   font-style: bold;
-  margin-left: 48px;
-  margin-top: 7px;
+  margin-left: 78px;
+  margin-top: 40px;
 }
 
 
@@ -152,31 +161,38 @@ header li:hover {
   background-color: #3ee2a902;
   border-radius: 5px;
 }
+header h2 {
+  margin-bottom: 50px;
+  margin-left: 20px;
+  font-size: 30px;
+  font-display:  block;
+  font-weight: 600;
 
+
+}
 /* Estilos para o conteúdo */
 article {
   background-color: #e3e7e6;
-
-
-
+padding-bottom: 90px;
   font-family: 'Roboto', sans-serif;
-  border-radius: 15px;
+  
 }
 
 h2 {
-  margin-left: 10px;
-  margin-bottom: 50px;
+  margin-left: 90px;
+  margin-bottom: 10px;
   font-weight: 500;
   font-style: bold;
   margin-right: 5px;
   line-height: 1.4;
+
 }
 
 h2 {
   font-size: 24px;
   color: #000;
   margin: 70 30 10px;
-  margin-top: 5px
+  margin-top: 90px
 }
 
 h4 {
@@ -195,6 +211,8 @@ p {
   line-height: 1.5;
   font-size: large;
   margin-left: 5px;
+  margin-bottom: 15px;
+padding-top: 15px;
 }
 
 img {
@@ -213,10 +231,11 @@ footer {
   border-radius: 10px;
   margin-top: 5px;
   box-shadow: #0e0e0e48 0.1em 0.1em 0.1em;
+  
 }
 
 footer p {
-  font-family: 'Roboto', sans-serif;
+
   font-size: 12px;
   align-items: center;
   display: block;
@@ -224,7 +243,6 @@ footer p {
 }
 
 footer h4 {
-  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   text-align: left;
   margin-left: 5px;
@@ -318,6 +336,8 @@ img {
 
 }
 
+
+
 img {
   width: 100%;
   height: 100%;
@@ -334,7 +354,7 @@ nav.index {
   background-color: #f2f2f2;
   padding: 10px;
   max-width: 500px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   margin-top: 20px;
   border-radius: 15px;
 
@@ -344,6 +364,7 @@ nav.index h2 {
   gap: 30px;
   margin-top: 20px;
   margin-bottom: 10px;
+
 }
 
 nav.index ul {
@@ -372,6 +393,7 @@ nav.index a {
 .index {
   margin-top: 5px;
   box-shadow: #0e0e0e48 0.1em 0.1em 0.3em;
+  margin-bottom: 50px;
 }
 
 .balao-informativo {
@@ -414,6 +436,8 @@ nav.index a {
 }
 
 
+
+
 .overlay-menu {
   background-color: rgba(0, 183, 255, 0.301);
   width: 100%;
@@ -452,17 +476,12 @@ nav.index a {
 
 }
 
-
-
-
-
-
-
-
-
 .icon-img:hover {
   opacity: 0.4;
 }
+
+
+
 
 @media screen and (max-width: 460px) {
   body {
@@ -489,9 +508,9 @@ nav.index a {
 
   footer p {
 
-    font-size: 9px;
-    margin-left: 5px;
-    margin-right: 7px;
+    font-size: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
   }
 }
 
@@ -501,12 +520,15 @@ nav.index a {
     background-color: #e6e7e9;
     margin-left: 9px;
     padding: 6px;
+    margin-right: 7px;
   }
+
   .primo nav img {
     display: none;
-    
-    }
-.primo h1{
-  margin-left: 13px;
-}
+
+  }
+
+  .primo h1 {
+    margin-left: 13px;
+  }
 }

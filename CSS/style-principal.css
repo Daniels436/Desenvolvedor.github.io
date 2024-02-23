@@ -943,12 +943,12 @@ footer p {
 }
 
 .btn-topo {
-  background-color: #45fc20d7;
+  background-color: #1ea803;
   color: #fff;
   text-align: center;
   line-height: 50px;
   font-size: 20px;
-  border-radius: 10px;
+  border-radius: 8px;
   text-decoration: none;
   transition: background-color 0.3s;
   z-index: 7777;
@@ -956,12 +956,12 @@ footer p {
 }
 
 .btn-topo:hover {
-  background-color: #1dc50e;
+  background-color: #04d404;
 }
 .menu-arrow {
   color: #03d6fc;
   vertical-align: -2px;
-  zoom: 78%;
+  zoom: 80%;
   font-style: bold;
 }
 
