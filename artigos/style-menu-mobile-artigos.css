@@ -1,5 +1,5 @@
 
-/* SUMIR COM OS ELEMETOS NO MEU PRINCIPA */
+/* EDITAR OS ELEMETOS DO MENU MOBILE-ARTIGOS */
 
 @media screen and (max-width: 800px) {
 
@@ -137,7 +137,7 @@ nav.menu-mobile-a ul li {
 
 .btn-abrir-menu:hover {
     box-shadow: 0 1px 1px 8px #999899d3;
-    background-color: #e1a0ff;
+    background-color: #54059462;
     border-radius: 12%;
 }
 
