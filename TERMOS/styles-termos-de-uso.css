@@ -19,7 +19,8 @@ body {
   strong{
     display: inline-block;
     font-weight: bold;
-
+    font-size: large;
+    font-size: 20px;
     margin-top: 20px;
   }
   p {
