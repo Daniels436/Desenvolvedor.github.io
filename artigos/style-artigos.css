@@ -90,7 +90,7 @@ header.duo {
 
 .primo img {
   position: fixed;
-  z-index: 66666;
+  z-index: 55555;
   margin-bottom: 12px;
 
 }
@@ -321,8 +321,8 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.192);
-  z-index: 9999999;
+  background-color: rgba(0, 0, 0, 0.562);
+  z-index: 6666;
 
   bottom: 7px;
   right: 7px;
@@ -334,10 +334,10 @@ img {
   content: ' Imagem por Pixabay';
   position: absolute;
   padding: 5px 10px;
-  background-color: rgba(0, 0, 0, 0.247);
+  background-color: rgba(0, 0, 0, 0.397);
   color: #f1f4f5;
   font-size: 11px;
-  z-index: 66666;
+  z-index: 4444;
   font-weight: 1000;
   font-style: bold;
   bottom: 7px;
@@ -415,7 +415,7 @@ nav.index a {
   background-color: #f1f1f1;
   padding: 10px;
   border-radius: 4px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.61);
   z-index: 999999;
   font-size: 15px;
   font-weight: 500;
@@ -433,7 +433,9 @@ nav.index a {
     border-radius: 15px;
     overflow: hidden;
   }
-
+  .menu-mobile-a a {
+    display: block;
+  }
 
   .index {
     position: relative;
@@ -513,6 +515,10 @@ nav.index a {
 
   }
 
+
+  .menu-mobile-a a {
+    display: block;
+  }
   /* Estilos para o botão de  */
   #like-button {
     position: fixed;
@@ -569,16 +575,13 @@ nav.index a {
   .primo h1 {
     margin-left: 13px;
   }
-}
+  .btn-fechar{
 
 
-/* SUMIR COM OS ELEMETOS NO MEU PRINCIPA */
-.btn-abrir-menu{
-  display: none;
+    display: block;
+  }
+
+
+
 }
-.btn-fechar{
-  display: none;
-}
-.menu-mobile{
-  display: none;
-}
+

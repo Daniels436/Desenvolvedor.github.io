@@ -5,12 +5,22 @@ document.addEventListener("DOMContentLoaded", function() {
     const overlayMenu = document.querySelector('.overlay-menu');
   
     btnAbrirMenu.addEventListener('click', () => {
-      menuMobile.classList.add('abrir-menu');
-      overlayMenu.style.display = 'block';
+        menuMobile.classList.add('abrir-menu');
+        overlayMenu.style.display = 'block';
     });
   
     overlayMenu.addEventListener('click', () => {
-      menuMobile.classList.remove('abrir-menu');
-      overlayMenu.style.display = 'none';
+        menuMobile.classList.remove('abrir-menu');
+        overlayMenu.style.display = 'none';
     });
-  });
+
+    // Selecione o botão de fechar pelo ID
+    var btnFechar = document.getElementById("btn-fechar-a");
+
+    // Adicione um evento de clique ao botão de fechar
+    btnFechar.addEventListener("click", function() {
+        // Adicione ou remova a classe "abrir-menu" para abrir ou fechar o menu
+        menuMobile.classList.remove("abrir-menu");
+        overlayMenu.style.display = 'none';
+    });
+});

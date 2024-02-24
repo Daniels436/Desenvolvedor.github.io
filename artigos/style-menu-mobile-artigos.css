@@ -15,16 +15,21 @@
     width: 0%;
     overflow: hidden;
     transition: all ease .4s;
-    border-radius: 12px;
+    border-radius: 9px;
     border: solid 1px #c07df734;
     margin-top: 1px;
     padding-bottom: 5px;
     box-sizing:  border-box;
-    padding-top: 50px;
+    padding-top: 3px;
+    top: -100%;
+    box-shadow: 3 4 2 #72299756;
 
 }
+.btn-fechar-a{
+display: block;
 
-.menu-mobile-a .btn-fechar {
+}
+.menu-mobile-a .btn-fechar-a {
     padding: 10px 8%;
     margin-top: 8px;
 }
@@ -53,19 +58,21 @@
 }
 
 .menu-mobile-a.abrir-menu {
-    width: 60%;
+    width: 100%;
 
 }
 
 
 
 
-.menu-mobile-a .btn-fechar  {
+.menu-mobile-a .btn-fechar-a  {
     color: currentColor;
-    font-size: 3px;
-    cursor: pointer;
-
+      cursor: pointer;
+    width: 26px; /* tamanho original  */
+    height: 26px; /*  tamanho original */
 }
+
+
 
 
 
@@ -129,24 +136,25 @@ nav.menu-mobile-a ul li {
 }
 
 .btn-abrir-menu:hover {
-    box-shadow: 0 1px 1px 8px #555455d3;
-    background-color: #555455;
-    border-radius: 9%;
+    box-shadow: 0 1px 1px 8px #999899d3;
+    background-color: #e1a0ff;
+    border-radius: 12%;
 }
 
 
+.menu-mobile-a.abrir-menu {
+    top: 0; /* abir de cima para baixo:: */
 
-
-
+}
 .menu-mobile-a nav ul li a:hover {
-    background-color: #443e4777;
+    background-color: #79777a77;
     color: #000000;
     display: block;
-    border-radius: 3px;
+    border-radius: 9px;
     border-bottom: 19px;
     transition: .1s;
     padding: 15px 6%;
-    transition-delay: 0.2s;
+    transition-delay: 0.7s;
     pointer-events: auto;
 }
 
