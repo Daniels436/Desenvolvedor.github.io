@@ -293,7 +293,6 @@ img {
 
   display: block;
   margin: 0 auto;
-  border-radius: 9px;
   overflow: hidden;
 }
 
@@ -349,7 +348,7 @@ img {
 
 
 
-img {
+.container-i img {
   width: 100%;
   height: 100%;
   object-fit: cover;
