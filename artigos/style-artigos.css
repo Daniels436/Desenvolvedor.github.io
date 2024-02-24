@@ -31,7 +31,7 @@ header.duo {
 
 .primo {
   position: fixed;
-  z-index: 88888;
+  z-index: 8888;
   top: 0%;
   margin: 0 auto;
   padding: 0% auto;
@@ -90,7 +90,7 @@ header.duo {
 
 .primo img {
   position: fixed;
-  z-index: 999999;
+  z-index: 66666;
   margin-bottom: 12px;
 
 }
@@ -532,7 +532,20 @@ nav.index a {
     margin-left: 12px;
     margin-right: 12px;
   }
+
+  
+  .primo nav a {
+ display: none;
+  
+  }
+
 }
+
+
+
+
+
+
 
 @media screen and (max-width: 800px) {
 
@@ -548,7 +561,24 @@ nav.index a {
 
   }
 
+  .primo nav a {
+    display: none;
+     
+     }
+
   .primo h1 {
     margin-left: 13px;
   }
+}
+
+
+/* SUMIR COM OS ELEMETOS NO MEU PRINCIPA */
+.btn-abrir-menu{
+  display: none;
+}
+.btn-fechar{
+  display: none;
+}
+.menu-mobile{
+  display: none;
 }

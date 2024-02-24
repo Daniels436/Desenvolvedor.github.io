@@ -1,0 +1,169 @@
+
+/* SUMIR COM OS ELEMETOS NO MEU PRINCIPA */
+
+@media screen and (max-width: 800px) {
+
+
+
+
+.menu-mobile-a {
+    background-color: #edeef0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    width: 0%;
+    overflow: hidden;
+    transition: all ease .4s;
+    border-radius: 12px;
+    border: solid 1px #c07df734;
+    margin-top: 1px;
+    padding-bottom: 5px;
+    box-sizing:  border-box;
+    padding-top: 50px;
+
+}
+
+.menu-mobile-a .btn-fechar {
+    padding: 10px 8%;
+    margin-top: 8px;
+}
+
+
+
+.menu-mobile-a nav ul {
+    text-align: right;
+}
+
+.menu-mobile-a nav ul li a {
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+/* ICONE-REDES-SOCIAIS-MOBILE */
+.icon-img>div img  {
+    margin-right: 13px;
+    border-radius: 5px;
+    filter: brightness(1.9);
+   
+}
+
+.menu-mobile-a ul li a {
+    color: #b579fa !important;
+}
+
+.menu-mobile-a.abrir-menu {
+    width: 60%;
+
+}
+
+
+
+
+.menu-mobile-a .btn-fechar  {
+    color: currentColor;
+    font-size: 3px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+.menu-mobile-a nav ul li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #722997;
+    padding: 15px 6%;
+    display: block
+}
+
+
+.menu-mobile-a li a:hover,
+.menu-mobile-a li a:focus {
+    color: #93edf3 !important;
+
+
+}
+
+
+
+
+.icon-img {
+    margin-left: 10px;
+
+
+}
+
+
+.menu-mobile-a .icon-img img {
+    margin-right: 10px;
+    margin-top: 10px;
+
+
+}
+
+nav.menu-mobile-a ul li {
+
+    text-decoration: none
+}
+
+.menu-mobile-a {
+    position: fixed;
+}
+
+.btn-abrir-menu {
+    position: fixed;
+    top: 9px;
+    right: 9px;
+    z-index: 9993;
+    border-radius: 5px;
+    background-position: center;
+    border: 4px solid #5554550c;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    display: flex;
+}
+
+.btn-abrir-menu:hover {
+    box-shadow: 0 1px 1px 8px #555455d3;
+    background-color: #555455;
+    border-radius: 9%;
+}
+
+
+
+
+
+.menu-mobile-a nav ul li a:hover {
+    background-color: #443e4777;
+    color: #000000;
+    display: block;
+    border-radius: 3px;
+    border-bottom: 19px;
+    transition: .1s;
+    padding: 15px 6%;
+    transition-delay: 0.2s;
+    pointer-events: auto;
+}
+
+.menu-mobile-a.abrir-menu~.overlay-menu {
+    display: block;
+}
+
+
+
+
+.overlay-menu {
+    background-color: rgba(3, 3, 3, 0.171);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 8888;
+    display: none;
+}}
