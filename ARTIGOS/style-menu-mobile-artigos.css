@@ -7,7 +7,7 @@
 
 
 .menu-mobile-a {
-    background-color: #edeef0;
+   
     position: fixed;
     top: 0;
     right: 0;
@@ -16,13 +16,22 @@
     overflow: hidden;
     transition: all ease .4s;
     border-radius: 9px;
-    border: solid 1px #c07df734;
+    border: solid 1px #c07df71c;
     margin-top: 1px;
     padding-bottom: 5px;
     box-sizing:  border-box;
     padding-top: 3px;
     top: -100%;
-    box-shadow: 3 4 2 #72299756;
+    box-shadow: #4444440e 0.2em 0.1em 0.1em;
+
+}
+.menu-mobile-a{
+    
+  background:  #ecebeb;
+}
+.mobile-section-a img{
+
+    filter: brightness(0.01);
 
 }
 .btn-fechar-a{
@@ -54,7 +63,7 @@ display: block;
 }
 
 .menu-mobile-a ul li a {
-    color: #b579fa !important;
+    color: #a353ff !important;
 }
 
 .menu-mobile-a.abrir-menu {
@@ -137,7 +146,7 @@ nav.menu-mobile-a ul li {
 
 .btn-abrir-menu:hover {
     box-shadow: 0 1px 1px 8px #999899d3;
-    background-color: #54059462;
+    background-color: #6463661e;
     border-radius: 12%;
 }
 
@@ -150,10 +159,10 @@ nav.menu-mobile-a ul li {
     background-color: #79777a77;
     color: #000000;
     display: block;
-    border-radius: 9px;
+    border-radius: 15px;
     border-bottom: 19px;
     transition: .1s;
-    padding: 15px 6%;
+    padding: 10px 6%;
     transition-delay: 0.7s;
     pointer-events: auto;
 }
