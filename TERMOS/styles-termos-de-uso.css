@@ -45,3 +45,7 @@ body {
         margin-right: 7px;
       }
   }
+  .grifado {
+    color: red;
+    font-weight: bold;
+}
