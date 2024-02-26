@@ -908,9 +908,14 @@ footer p {
 
 /* ICON-REDES-SOCIAIS */
 .footer-icon>div img {
-  margin-right: 4px;
-  border-radius: 5px;
-  filter: brightness(0.01);
+  margin-right: 8px;
+ 
+  filter: brightness(9.01);
+}
+.icon-link:hover {
+  opacity: 0.6
+  ;
+  
 }
 
 
@@ -1093,7 +1098,7 @@ text-decoration: none;
 }
 
 
-@media (min-width:870px) and (max-width: 1900px) {
+@media (min-width:800px) and (max-width: 1900px) {
 .menu-arrow{
   display: none;
 }
