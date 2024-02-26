@@ -910,7 +910,7 @@ footer p {
 .footer-icon>div img {
   margin-right: 8px;
  
-  filter: brightness(9.01);
+  filter: brightness(.01);
 }
 .icon-link:hover {
   opacity: 0.6
