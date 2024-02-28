@@ -172,28 +172,37 @@ section.topo-do-site.flexo {
 
 .topo-do-site h1 {
   color: #dfe3e7;
-  font-size: 23px;
+  font-size: 24px;
   max-width: 80%;
   text-align: left;
   margin: 0;
+
 }
 
 .topo-do-site p {
   max-width: 80%;
   margin: 0;
-  font-weight: 300;
   letter-spacing: 1.36px;
   line-height: 20px;
   text-align: left;
   margin-top: 9px;
   line-height: 1.5;
+  line-height: 3rch;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 10px;
 }
 
 .topo-do-site h1 span {
   color: #8d6ffa;
   display: table-row;
+  
 }
+.topo-do-site span {
+  letter-spacing: 1px;
 
+  
+}
 .txt-topo-site {
   color: #fff;
   font-size: 14px;
@@ -264,7 +273,7 @@ section.servicos-box {
   height: 280px;
   text-align: center;
   transition: transform 0.3s ease;
-  background-color: #0a0a0a;
+  background-color: #131313a2;
 }
 
 .servicos-box h3 {
@@ -1215,17 +1224,22 @@ padding: 2px ;
     margin-top: 90px;
     font-size: 26px;
     margin-left: 7px;
+    line-height: 1.5;
 
   }
 
-
+  .topo-do-site h1{
+    line-height: 1.5;
+    font-size: 26px;
+  }
 
   .txt-topo-site p {
-    max-width: 90%;
+    max-width: 100%;
     font-weight: 300;
-    letter-spacing: px;
+    letter-spacing: 2px;
     font-size: 17px;
     margin-left: 07px;
+    line-height: 1.9;
   }
 
 
@@ -1279,7 +1293,7 @@ padding: 2px ;
     line-height: 1.1;
     box-sizing: border-box;
     width: 200px;
-    height: 290px;
+    height: 390px;
     margin-right: 20px;
     /* Adicione a margem entre as caixas */
   }
@@ -1291,9 +1305,9 @@ padding: 2px ;
       line-height: 1.1;
       margin-bottom: 40px;
       box-sizing: border-box;
-      width: 340px;
+      width: 300px;
       /* Largura fixa de 300 pixels */
-      height: 340px;
+      height: 390px;
 
 
     }
@@ -1331,7 +1345,6 @@ padding: 2px ;
   .servicos-box {
     flex: 1 1 90%;
     width: 100%;
-    height: 100%;
     object-fit: cover;
     object-position: center;
 
@@ -1610,23 +1623,26 @@ padding: 2px ;
   .topo-do-site span {
     margin: 0;
     padding: 0.01rem;
+    line-height: 1.5;
+   
   }
 
   .topo-do-site h1 {
     font-size: 26px;
     max-width: 100%;
     text-align: left;
+    line-height: 1.5;
   }
 
   .topo-do-site p {
     margin-right: 6px;
-    padding-bottom: 14px;
     line-height: 1.0;
     font-size: 14px;
-    line-height: 2;
+    line-height: 3rch;
     font-weight: 500;
     letter-spacing: 1px;
-
+    width: 100%;
+    margin-top: 26px;
   }
 
   .topo-do-site h1 span,

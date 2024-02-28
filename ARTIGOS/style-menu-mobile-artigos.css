@@ -21,13 +21,13 @@
         box-sizing: border-box;
         padding-top: 3px;
         top: -100%;
-        box-shadow: #0000004d 0.4em 0.2em 0.3em;
+        box-shadow: #00000038 0.4em 0.2em 0.3em;
 
     }
 
     .menu-mobile-a {
 
-        background: #c2c0c0;
+        background: #dbe4ec;
     }
 
     .mobile-section-a img {

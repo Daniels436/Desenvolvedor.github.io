@@ -23,8 +23,7 @@ header.duo {
 }
 
 .primo h1 {
-  margin-top: 7px;
-  margin-bottom: 7px;
+  margin-top: 4px;
   margin-left: 50px;
 
 }
@@ -50,7 +49,7 @@ header.duo {
   background-color: #edeef0c4;
   display: flex;
   justify-content: space-between;
-  box-shadow: #b3b1b1b4 0.2em 0.1em 0.2em;
+  box-shadow: #b3b1b1b4 0.1em 0.1em 0.1em;
 }
 
 .primo nav img {
@@ -59,11 +58,14 @@ header.duo {
   object-fit: cover;
   display: block;
   margin-top: 7px;
-  min-width: 15px;
-  max-width: 40px;
-  margin-bottom: 7px;
+   max-width: 40px;
+  margin-bottom: 2px;
   margin-left: 5px;
 
+}
+
+.prino nav {
+  margin-bottom: 0 auto;
 }
 
 .primo nav a {
@@ -71,7 +73,7 @@ header.duo {
   text-decoration: none;
   display: inline-block;
   transition: .3s;
-  padding: 9px 9px;
+  padding: 6px 6px;
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -91,7 +93,6 @@ header.duo {
 .primo img {
   position: fixed;
   z-index: 55555;
-  margin-bottom: 12px;
 
 }
 
@@ -163,11 +164,12 @@ header {
 }
 
 .primo li:hover {
-  background-color: #3ee2a98c;
-  padding: 7px 9px;
+  background-color: #54e6b2c9;
+  padding: 8px 14px;
   font-size: 16px;
   cursor: pointer;
-  border-radius: 8px;transform: translateY(1.0px)
+  border-radius: 6px;
+  transform: translateY(1.0px)
 }
 
 header h2 {
@@ -432,6 +434,7 @@ nav.index a {
     border-radius: 15px;
     overflow: hidden;
   }
+
   .menu-mobile-a a {
     display: block;
   }
@@ -518,6 +521,7 @@ nav.index a {
   .menu-mobile-a a {
     display: block;
   }
+
   /* Estilos para o botão de  */
   #like-button {
     position: fixed;
@@ -538,10 +542,10 @@ nav.index a {
     margin-right: 12px;
   }
 
-  
+
   .primo nav a {
- display: none;
-  
+    display: none;
+
   }
 
 }
@@ -568,13 +572,14 @@ nav.index a {
 
   .primo nav a {
     display: none;
-     
-     }
+
+  }
 
   .primo h1 {
     margin-left: 13px;
   }
-  .btn-fechar{
+
+  .btn-fechar {
 
 
     display: block;
@@ -583,4 +588,3 @@ nav.index a {
 
 
 }
-
