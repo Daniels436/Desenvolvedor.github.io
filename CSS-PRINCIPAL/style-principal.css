@@ -172,45 +172,46 @@ section.topo-do-site.flexo {
 
 .topo-do-site h1 {
   color: #dfe3e7;
-  font-size: 24px;
+  font-size: 23px;
   max-width: 80%;
   text-align: left;
   margin: 0;
+  letter-spacing: 3.16px;
 
 }
 
 .topo-do-site p {
   max-width: 80%;
   margin: 0;
-  letter-spacing: 1.36px;
-  line-height: 20px;
+  line-height: 15px;
   text-align: left;
   margin-top: 9px;
-  line-height: 1.5;
-  line-height: 3rch;
-  font-weight: 500;
-  letter-spacing: 1px;
+  line-height: 23px;
+  font-weight: 100;
+  letter-spacing: 2px;
   margin-top: 10px;
 }
 
 .topo-do-site h1 span {
   color: #8d6ffa;
   display: table-row;
-  
+  line-height: 4rch; 
 }
 .topo-do-site span {
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 
   
 }
 .txt-topo-site {
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   align-items: center;
   text-align: justify;
   text-justify: inter-word;
   word-wrap: break-word;
   overflow-wrap: break-word;
+  line-height: 3rch;
+  font-weight: 100;
 }
 
 .topo-do-site {
@@ -262,8 +263,8 @@ section.servicos-box {
 .servicos-box {
   color: #dfe3e7;
   padding: 22px;
-  box-shadow: 1px 3px 1px rgba(255, 255, 255, 0.048);
-  border-radius: 12px;
+  box-shadow: 3px 2px 2px rgba(14, 80, 92, 0.274);
+  border-radius: 10px;
   flex: 1 0 280px;
   max-height: 360px;
   line-height: 1.1;
@@ -273,7 +274,8 @@ section.servicos-box {
   height: 280px;
   text-align: center;
   transition: transform 0.3s ease;
-  background-color: #131313a2;
+  background-color: #131313b6;
+  border: 1px  rgba(128, 255, 0, 0.075)  solid; 
 }
 
 .servicos-box h3 {
@@ -290,7 +292,7 @@ section.servicos-box {
 
 .servicos-box:hover {
   transform: scale(1.03);
-  box-shadow: 0 0 8px #4a126493;
+  box-shadow: 0 0 12px #410d58f5;
 }
 
 .servicos-container {
@@ -303,13 +305,14 @@ section.servicos-box {
   margin-right: 0;
 }
 
+
+
+
 /* DAEK-MODE- ... PEGADINHA ...*/
 body.dark-mode {
 
   color: #fff;
 }
-
-
 
 
 
@@ -1636,11 +1639,10 @@ padding: 2px ;
 
   .topo-do-site p {
     margin-right: 6px;
-    line-height: 1.0;
-    font-size: 14px;
-    line-height: 3rch;
+    font-size: 16px;
+    line-height: 4rch;
     font-weight: 500;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
     width: 100%;
     margin-top: 26px;
   }
