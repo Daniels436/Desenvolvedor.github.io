@@ -274,7 +274,7 @@ section.servicos-box {
   height: 280px;
   text-align: center;
   transition: transform 0.3s ease;
-  background-color: #131313b6;
+  background-color: #13131380;
   border: 1px  rgba(128, 255, 0, 0.075)  solid; 
 }
 
@@ -1596,7 +1596,7 @@ padding: 2px ;
 
   .img-topo-site .img-movimento {
 
-    border: solid 0px #8ef7cb1c;
+    border: solid 1px #08f8944f;
     border-radius: 90px;
     position: fixed;
     margin-top: 120px;
@@ -1640,8 +1640,8 @@ padding: 2px ;
   .topo-do-site p {
     margin-right: 6px;
     font-size: 16px;
-    line-height: 4rch;
-    font-weight: 500;
+    line-height: 3rch;
+    font-weight: 300;
     letter-spacing: 3px;
     width: 100%;
     margin-top: 26px;
