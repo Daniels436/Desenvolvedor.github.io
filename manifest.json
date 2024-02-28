@@ -1,0 +1,15 @@
+{
+    "name": "Daniel | Dev",
+    "short_name": "Daniel | Dev",
+    "start_url": "daniels436.github.io",
+    "display": "standalone",
+    "background_color": "#000",
+    "theme_color": "#fff",
+    "icons": [
+      {
+        "src": "img/logo-danipix.png",
+        "sizes": "50x50",
+        "type": "image/png"
+      }
+    ]
+  }

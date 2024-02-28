@@ -65,7 +65,9 @@ header {
   margin-top: 0px;
 
   border-radius: 15px;
+  background-color: #0a0a0a;
 }
+
 
 
 header {
@@ -237,12 +239,13 @@ section.topo-do-site.flexo {
 /*SERVICOS*/
 
 
-.section.servicos {
+section.servicos {
   padding: 40px 4%;
   box-shadow: 0 0 20px 10px #307c8a1a;
+  
 }
 
-.section.servicos-box {
+section.servicos-box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -263,6 +266,7 @@ section.topo-do-site.flexo {
   height: 280px;
   text-align: center;
   transition: transform 0.3s ease;
+  background-color: #0a0a0a;
 }
 
 .servicos-box h3 {
@@ -288,7 +292,9 @@ section.topo-do-site.flexo {
   flex-wrap: wrap;
 }
 
-
+.servicos-box:last-child {
+  margin-right: 0;
+}
 
 /* DAEK-MODE- ... PEGADINHA ...*/
 body.dark-mode {
@@ -309,6 +315,7 @@ section.portfolio {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  
 
 }
 
@@ -321,7 +328,9 @@ section.portfolio {
   margin-right: 35px;
   margin-bottom: 35px;
   position: relative;
+  background-color: #0a0a0a;
 }
+
 
 .portfolio .flex>div:last-child {
   margin-right: 0;
@@ -414,6 +423,7 @@ section.formacao {
   padding: 30px 4%;
   text-align: left;
   box-shadow: 0 0 20px 10px #bbdbe00e;
+  
 }
 
 section.formacao.flex {
@@ -475,7 +485,9 @@ section.formacao.flex {
   display: flex;
   flex-direction: row;
   align-items: center;
+  
 }
+
 
 
 
@@ -1421,30 +1433,25 @@ padding: 2px ;
     flex-wrap: nowrap;
     overflow-x: auto;
   }
-
-  .servicos-box {
-
-    flex: 1 0 9%;
-    max-width: 190px;
-    line-height: 1.1;
-    box-sizing: border-box;
-    width: 190px;
-    height: 400px;
-
-  }
-
-  .servicos-box p {
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    line-height: 15px;
-  }
-
-  .servicos-box {
-    margin-right: 0;
-    margin-bottom: 4px;
-
-  }
+.servicos-box {
+  flex: 1 0 9%;
+  max-width: 190px;
+  max-height: 400px;
+  line-height: 1.1;
+  box-sizing: border-box;
+  width: 190px;
+  height: 400px;
+ 
+}
+.servicos-box:last-child {
+  margin-right: 0;
+}
+.servicos-box p {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 15px;
+}
 }
 
 

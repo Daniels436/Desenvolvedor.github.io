@@ -1,0 +1,12 @@
+# Configurações do Manifesto da PWA
+name: "Meu App PWA"  # Nome da PWA
+short_name: "App PWA"  # Nome curto da PWA
+start_url: "/"  # URL inicial
+display: "standalone"  # Modo de exibição
+background_color: "#000"  # Cor de fundo
+theme_color: "#fff"  # Cor do tema
+
+icons:  # Ícones da PWA
+  - src: "img/logo-danipix.png"  # Caminho para o ícone
+    sizes: "50x50"  # Tamanho do ícone
+    type: "image/png"  # Tipo MIME do ícone
