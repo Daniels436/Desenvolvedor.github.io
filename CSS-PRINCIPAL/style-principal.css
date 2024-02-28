@@ -61,11 +61,9 @@ h2.titulo span {
 /* HOME-NAV*/
 
 header {
-
   margin-top: 0px;
-
   border-radius: 15px;
-  background-color: #0a0a0a;
+  
 }
 
 
@@ -1117,7 +1115,7 @@ text-decoration: none;
   }
 
   .img-movimento {
-    border-top: 40px;
+    border-top: 90px;
     display: block;
     height: auto;
     box-shadow: 1px 2px 10px rgba(5, 250, 217, 0.315);
@@ -1128,11 +1126,11 @@ text-decoration: none;
     border: solid 0px #8ef7cb1c;
     border-radius: 90px;
     position: fixed;
-    top: 80px;
+    margin-top: 40px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 7777;
-    animation: flutuar 4s ease-in-out infinite alternate;
+    animation: flutuar 3s ease-in-out infinite alternate;
     zoom: 90%;
 
   }
@@ -1147,7 +1145,7 @@ text-decoration: none;
     }
   }
 section .topo-do-site{
-
+margin: top 40px; 
 padding: 2px ;
 }
 
@@ -1157,6 +1155,7 @@ padding: 2px ;
     top: 70px;
     left: 3px;
     width: 100%;
+    bottom: 80px;
 
   }
 
@@ -1164,11 +1163,7 @@ padding: 2px ;
     transition: opacity 1.9s
   }
 
-  .img-topo-site {
-    display: none;
-    position: fixed;
-  }
-
+  
   .img-topo-site.hidden {
     opacity: 0;
     pointer-events: none;
@@ -1195,17 +1190,13 @@ padding: 2px ;
 
 
 
-
-
-
-
-
   /*MENU-HOME-PAGE */
 
   section.topo-do-site {
     padding: 40px 5%;
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 
   }
 
@@ -1221,8 +1212,8 @@ padding: 2px ;
   /*seção-topo-mobile*/
 
   .topo-do-site h1 span {
-    margin-top: 50px;
-    font-size: 24px;
+    margin-top: 90px;
+    font-size: 26px;
     margin-left: 7px;
 
   }
@@ -1232,7 +1223,7 @@ padding: 2px ;
   .txt-topo-site p {
     max-width: 90%;
     font-weight: 300;
-    letter-spacing: 1px;
+    letter-spacing: px;
     font-size: 17px;
     margin-left: 07px;
   }
@@ -1581,7 +1572,26 @@ padding: 2px ;
 /*TAMANHO-DAS-FONTES-PRINCIPAIS-MOBILE-460PX*/
 @media (min-width: 280px) and (max-width:460px) {
 
+  .topo-do-site-container{
+    width: 90% !important;
+    margin-top: 90px;
+    padding-top: 100px;
+  }
 
+  .img-topo-site .img-movimento {
+
+    border: solid 0px #8ef7cb1c;
+    border-radius: 90px;
+    position: fixed;
+    margin-top: 120px;
+    left: 50%;
+    
+    transform: translateX(-50%);
+    z-index: 7777;
+    animation: flutuar 4s ease-in-out infinite alternate;
+    zoom: 100%;
+
+  }
 
   h2.titulo {
 
@@ -1603,24 +1613,25 @@ padding: 2px ;
   }
 
   .topo-do-site h1 {
-    font-size: 20px;
+    font-size: 26px;
     max-width: 100%;
     text-align: left;
   }
 
   .topo-do-site p {
-    max-width: 100%;
+    margin-right: 6px;
+    padding-bottom: 14px;
+    line-height: 1.0;
     font-size: 14px;
+    line-height: 2;
     font-weight: 500;
-    letter-spacing: 1.0px;
-    line-height: 1.5;
-    margin-top: 14px;
-    margin-bottom: 0;
+    letter-spacing: 1px;
+
   }
 
   .topo-do-site h1 span,
   .topo-do-site span {
-    font-size: 20px;
+    font-size: 26px;
     color: #8d6ffa;
     margin-left: 1px;
   }
