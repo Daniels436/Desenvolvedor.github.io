@@ -1064,7 +1064,7 @@ text-decoration: none;
 }
 
 
-@media (min-width:800px) and (max-width: 1900px) {
+@media screen and (min-width: 768px) {
 .menu-arrow{
   display: none;
 }
@@ -1646,6 +1646,7 @@ padding: 2px ;
     line-height: 2;
     font-weight: 500;
     letter-spacing: 1px;
+    margin-top: 40px;
 
   }
   .topo-do-site span {

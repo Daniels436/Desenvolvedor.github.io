@@ -63,10 +63,10 @@ ul {
 
   }
 
-  h1,
-  h3,
+  
+  
   li,
-  ul {
+  ul, p {
     text-align: left;
 
   }
