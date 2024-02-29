@@ -226,6 +226,8 @@ p {
   font-size: large;
   margin-left: 5px;
   margin-bottom: 15px;
+  max-width: 1100px;
+  text-align: justify;
 }
 
 img {
@@ -239,7 +241,7 @@ footer {
   background-color: #0e0d0d;
   padding: 2px;
   text-align: center;
-
+max-width: 1100px;
   color: #2a7af1;
   border-radius: 10px;
   margin-top: 5px;
@@ -250,9 +252,11 @@ footer {
 footer p {
 
   font-size: 12px;
-  align-items: center;
+  text-align: center;
   display: block;
-
+text-decoration: none;
+margin-bottom: 4px;
+margin-top: auto;
 }
 
 footer h4 {
@@ -263,8 +267,20 @@ footer h4 {
   margin-bottom: 0px;
   align-items: center;
   display: flex
+
+
+}
+footer p a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #2a7af1;
+  font-weight: 600;
+  margin-bottom: 4px;
 }
 
+footer p a:hover{
+  color: #04ad09;
+}
 
 /* Estilos para o contador de curtidas */
 #like-count {
@@ -272,6 +288,7 @@ footer h4 {
   color: #555;
   margin-top: 10px;
 }
+
 
 /* Estilos para o botão de  */
 #like-button {

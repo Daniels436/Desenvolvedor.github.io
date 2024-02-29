@@ -31,9 +31,13 @@ body {
 text-indent: 4%;
 text-align: justify;
   }
-  li{
+   li {
     max-width: 900px;
     text-align: justify;
+  }
+  ul {
+    max-width: 850px;
+    text-align: justify; 
   }
   .grifado {
     color: red;
