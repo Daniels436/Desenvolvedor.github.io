@@ -172,7 +172,7 @@ section.topo-do-site.flexo {
 
 .topo-do-site h1 {
   color: #dfe3e7;
-  font-size: 23px;
+  font-size: 26px;
   max-width: 80%;
   text-align: left;
   margin: 0;
@@ -183,7 +183,6 @@ section.topo-do-site.flexo {
 .topo-do-site p {
   max-width: 80%;
   margin: 0;
-  line-height: 15px;
   text-align: left;
   margin-top: 9px;
   line-height: 23px;
@@ -204,7 +203,7 @@ section.topo-do-site.flexo {
 }
 .txt-topo-site {
   color: #fff;
-  font-size: 16px;
+  font-size: 14px;
   align-items: center;
   text-align: justify;
   text-justify: inter-word;

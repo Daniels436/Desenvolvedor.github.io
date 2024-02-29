@@ -58,7 +58,7 @@ header.duo {
   object-fit: cover;
   display: block;
   margin-top: 7px;
-   max-width: 40px;
+  max-width: 40px;
   margin-bottom: 2px;
   margin-left: 5px;
 
@@ -241,7 +241,7 @@ footer {
   background-color: #0e0d0d;
   padding: 2px;
   text-align: center;
-max-width: 1100px;
+  max-width: 1100px;
   color: #2a7af1;
   border-radius: 10px;
   margin-top: 5px;
@@ -254,9 +254,9 @@ footer p {
   font-size: 12px;
   text-align: center;
   display: block;
-text-decoration: none;
-margin-bottom: 4px;
-margin-top: auto;
+  text-decoration: none;
+  margin-bottom: 4px;
+  margin-top: auto;
 }
 
 footer h4 {
@@ -267,9 +267,8 @@ footer h4 {
   margin-bottom: 0px;
   align-items: center;
   display: flex
-
-
 }
+
 footer p a {
   text-decoration: none;
   font-size: 12px;
@@ -278,7 +277,7 @@ footer p a {
   margin-bottom: 4px;
 }
 
-footer p a:hover{
+footer p a:hover {
   color: #04ad09;
 }
 
@@ -565,11 +564,6 @@ nav.index a {
 
   }
 
- article p {
-    text-align: left;
-  }
-
-  
 }
 
 
@@ -607,6 +601,9 @@ nav.index a {
     display: block;
   }
 
+  article p {
+    text-align: left;
+  }
 
 
 }
