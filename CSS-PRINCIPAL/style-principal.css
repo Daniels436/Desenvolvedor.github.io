@@ -261,9 +261,9 @@ section.servicos-box {
 }
 
 .servicos-box {
-  color: #dfe3e7;
+  color: #f5f8f8;
   padding: 22px;
-  box-shadow: 3px 2px 2px rgba(14, 80, 92, 0.274);
+  box-shadow: 2px 1px 4px rgba(27, 51, 51, 0.418);
   border-radius: 10px;
   flex: 1 0 280px;
   max-height: 360px;
@@ -274,7 +274,7 @@ section.servicos-box {
   height: 280px;
   text-align: center;
   transition: transform 0.3s ease;
-  background-color: #13131380;
+  background-color: #0c0c0c;
   border: 1px  rgba(128, 255, 0, 0.075)  solid; 
 }
 
@@ -1626,30 +1626,33 @@ padding: 2px ;
   .topo-do-site span {
     margin: 0;
     padding: 0.01rem;
-    line-height: 1.5;
+    line-height: 1.3em;
    
   }
 
   .topo-do-site h1 {
-    font-size: 26px;
+    font-size: 28px;
     max-width: 100%;
     text-align: left;
-    line-height: 1.5;
+    line-height: 1.3;
   }
 
   .topo-do-site p {
     margin-right: 6px;
-    font-size: 16px;
-    line-height: 3rch;
-    font-weight: 300;
-    letter-spacing: 3px;
-    width: 100%;
-    margin-top: 26px;
-  }
+    padding-bottom: 14px;
+    line-height: 1.0;
+    font-size: 14px;
+    line-height: 2;
+    font-weight: 500;
+    letter-spacing: 1px;
 
-  .topo-do-site h1 span,
+  }
   .topo-do-site span {
-    font-size: 26px;
+    line-height: 1.3em;
+
+  }
+  .topo-do-site h1 span {
+    font-size: 28px;
     color: #8d6ffa;
     margin-left: 1px;
   }
