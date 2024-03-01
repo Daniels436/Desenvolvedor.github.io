@@ -35,7 +35,7 @@
   }
   
   .menu-mobile::-webkit-scrollbar-track {
-    background: #f5f3f3; /* Cor de fundo da barra de rolagem */
+    background: #0000; /* Cor de fundo da barra de rolagem */
   }
   
   .menu-mobile::-webkit-scrollbar-thumb {
