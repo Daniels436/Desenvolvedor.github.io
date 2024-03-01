@@ -469,6 +469,10 @@ nav.index a {
 
 
 
+
+
+
+
 .overlay-menu {
   background-color: rgba(0, 183, 255, 0.301);
   width: 100%;
@@ -565,9 +569,12 @@ nav.index a {
     display: none;
 
   }
- /* ...........´´´............... */
+ 
 
 }
+
+
+
 
 
 
@@ -607,7 +614,7 @@ nav.index a {
   article p {
     text-align: left;
   }
- /* ...........´´´............... */
+
 
 
 }

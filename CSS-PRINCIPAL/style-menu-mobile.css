@@ -24,12 +24,33 @@
     margin-top: 1px;
     padding-bottom: 5px;
     box-sizing:  border-box;
+    overflow-y: scroll;
+    max-height: calc(100vh - 20px);
+
 
 }
+
+.menu-mobile::-webkit-scrollbar {
+    width: 8px; /* Largura da barra de rolagem */
+  }
+  
+  .menu-mobile::-webkit-scrollbar-track {
+    background: #000000; /* Cor de fundo da barra de rolagem */
+  }
+  
+  .menu-mobile::-webkit-scrollbar-thumb {
+    background-color: #195b88; /* Cor do indicador da barra de rolagem */
+    border-radius: 6px; /* Borda arredondada do indicador */
+  }
+  
+  .menu-mobile::-webkit-scrollbar-thumb:hover {
+    background-color: #390a42; /* Cor do indicador ao passar o mouse */
+  }
 
 .menu-mobile .btn-fechar {
     padding: 10px 8%;
     margin-top: 8px;
+
 }
 
 
@@ -65,7 +86,6 @@
 
 .menu-mobile .btn-fechar  {
     color: currentColor;
-    font-size: 3px;
     cursor: pointer;
 
 }
@@ -122,6 +142,7 @@ nav.menu-mobile ul li {
     top: 9px;
     right: 9px;
     z-index: 9993;
+    zoom: 85%;
     
     border-radius: 5px;
     background-position: center;
@@ -179,7 +200,7 @@ nav.menu-mobile ul li {
     display: none;
 }
 
-/* .............-.............. */
+
 
 }
 
