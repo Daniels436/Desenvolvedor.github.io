@@ -8,8 +8,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   $telefone = $_POST["telefone"];
   $mensagem = $_POST["mensagem"];
 
-  //  e-mail distino
-  $to ""; // destino e-mail
+  // Configurações do e-mail
+  $to = "danielzele01@yahoo.com.br"; // Substitua pelo seu endereço de e-mail
   $subject = "Novo formulário enviado";
   $message = "Nome: " . $nome . "\n"
             . "E-mail: " . $email . "\n"
