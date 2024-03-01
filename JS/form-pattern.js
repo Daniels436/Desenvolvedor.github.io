@@ -5,10 +5,6 @@
 
 
 
-
-
-
-
 // LIMITE-600-CARAC-TEXTAREA-FORMULARIO
 
 const textarea = document.getElementById("campo-mensagem");

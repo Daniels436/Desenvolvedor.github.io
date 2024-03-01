@@ -1,8 +1,11 @@
-/* SUMIR COM OS ELEMETOS NO MEU PRINCIPA */
+
+
+
+
+/* ELEMETOS DO MENU MOBILE-ARTIGOS */
+
 
 @media screen and (max-width: 800px) {
-
-
 
 
     .menu-mobile-a {
@@ -193,4 +196,6 @@
         z-index: 8888;
         display: none;
     }
+     /* ...........´´´............... */
+
 }

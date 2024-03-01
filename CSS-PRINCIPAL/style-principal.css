@@ -1,3 +1,5 @@
+
+
 /*PRINCIPAL*/
 
 
@@ -956,7 +958,7 @@ text-decoration: none;
 
 /* MIDIA-FOOTER-TAMANHO-MOBILE */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 820px) {
   footer {
     flex-direction: column;
     align-items: left;
@@ -1039,14 +1041,17 @@ text-decoration: none;
 
   
 
+  /* ..........´´´............*/
 
 
-  /* ...........´´´............... */
+
 }
 
 
+
+
 /* MIDIA-FOOTER-TAMANHO-MOBILE-CLOSE-02 */
-@media screen and (min-width: 369px) {
+@media screen and (min-width: 820px) {
   .footer-section {
     align-items: flex-start;
   }
@@ -1060,14 +1065,18 @@ text-decoration: none;
   
   }
 
- 
+  /* ...........´´´........... */
+
 }
 
 
-@media screen and (min-width: 768px) {
+
+
+@media screen and (min-width: 820px) {
 .menu-arrow{
   display: none;
 }
+ /* ...........´´´........... */
 
 }
 
@@ -1077,16 +1086,13 @@ text-decoration: none;
 
 
 
-/*=====================      MIDIAS-RESPONSIVO-MOBILE-1000PX       ==========================================*/
 
 
 
 
 
 
-
-
-
+/*============   MIDIAS-RESPONSIVO-MOBILE-1000PX   ==============*/
 
 
 
@@ -1095,7 +1101,7 @@ text-decoration: none;
 
 
 
-  /*-GERAIS-TAMANHO-MOBILE*/
+  /*-GERAIS-TAMANHO-MOBILE-TABLET*/
 
   .formacao,
   .formulario,
@@ -1121,7 +1127,20 @@ text-decoration: none;
     justify-content: content 1px;
     margin-top: 60px;
   }
-
+  .fixed-nav-mobile{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow:rgb(128, 255, 0);
+    box-shadow: 0 0 8px 2px #04d6f72c;
+  }
   .txt-topo-site {
     position: relative;
     margin-top: 80px;
@@ -1214,7 +1233,7 @@ padding: 2px ;
   }
 
 
-
+H
   /* classe 'flexo' */
   section.topo-do-site.flexo {
     justify-content: center;
@@ -1400,13 +1419,25 @@ padding: 2px ;
     margin-left: 9px;
   }
 
+
+
+   /* ...........´´´.......... */
+
 }
+
+
+
+
 
 
 /* TIRAR-BTN-MENU-PC */
 .btn-abrir-menu {
   display: none;
 }
+
+
+
+
 
 
 /* COLOCA-BTN-MENU-MOBILE-DO-MENU|NO-M-MOBILE */
@@ -1419,6 +1450,8 @@ padding: 2px ;
 
 .menu-mobile {
   display: none;
+   /* ...........´´´.......... */
+
 }
 
 
@@ -1431,7 +1464,15 @@ padding: 2px ;
     display: block;
   }
 
+
+ /* ...........´´´........... */
+
 }
+
+
+
+
+
 
 /* MIDIA-SEVICOS-TAMANHO-TABLET */
 @media (min-width: 680px) and (max-width: 1000px) {
@@ -1460,6 +1501,12 @@ padding: 2px ;
   letter-spacing: 1px;
   line-height: 15px;
 }
+
+
+ /* ...........´´´........... */
+
+
+
 }
 
 
@@ -1494,6 +1541,9 @@ padding: 2px ;
   .portfolio .flex>div:last-child {
     margin-right: 0;
   }
+
+
+ /* ...........´´´........... */
 
 }
 
@@ -1535,9 +1585,17 @@ padding: 2px ;
   .portfolio .flex>div:last-child {
     margin-right: 0;
   }
+
+   /* ...........´´´........... */
+
 }
 
+
+
+/*     
 @media screen and (max-width: 1000px) {}
+
+
 
 
 
@@ -1586,7 +1644,16 @@ padding: 2px ;
 }
 
 
+
+
+
+
+
+
+
+
 /*TAMANHO-DAS-FONTES-PRINCIPAIS-MOBILE-460PX*/
+
 @media (min-width: 280px) and (max-width:460px) {
 
   .topo-do-site-container{
@@ -1691,11 +1758,21 @@ padding: 2px ;
     text-align: left;
 
   }
+
+
+
+ /* ...........´´´............... */
+
+
 }
 
 
-/* BALAO-INFORMATIVO-DE-TOPO-DA-PAGINA */
 
+
+
+
+
+/* BALAO-INFORMATIVO-DE-TOPO-DA-PAGINA */
 
 .balao-informativo {
   display: none;
