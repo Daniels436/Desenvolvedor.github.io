@@ -1142,14 +1142,21 @@ footer p {
     left: 0;
     width: 100%;
     height: 40px;
-    background-color: #000000;
     color: #ffffff28;
     text-align: center;
     padding: 10px;
     box-sizing: border-box;
   
-    box-shadow: 0 0 8px 2px #00080c5b;
-    border: 1px rgba(5, 238, 255, 0.062) solid;
+    background: linear-gradient(to bottom, #020505, #040a0a);
+  
+  }
+
+  .fixed-nav-mobile .icon {
+    position: absolute;
+    top: 4px;
+    left: 10px;
+    width: 32px;
+    height: 32px;
   }
 
   .txt-topo-site {

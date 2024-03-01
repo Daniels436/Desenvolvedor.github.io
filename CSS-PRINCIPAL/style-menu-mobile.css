@@ -35,16 +35,16 @@
   }
   
   .menu-mobile::-webkit-scrollbar-track {
-    background: #0000; /* Cor de fundo da barra de rolagem */
+    background: #f5f3f300; /* Cor de fundo da barra de rolagem */
   }
   
   .menu-mobile::-webkit-scrollbar-thumb {
-    background-color: #3c7fac; /* Cor do indicador da barra de rolagem */
+    background-color: #3c7fac98; /* Cor do indicador da barra de rolagem */
     border-radius: 6px; /* Borda arredondada do indicador */
   }
   
   .menu-mobile::-webkit-scrollbar-thumb:hover {
-    background-color: #571364; /* Cor do indicador ao passar o mouse */
+    background-color: #5613649d; /* Cor do indicador ao passar o mouse */
   }
 
 .menu-mobile .btn-fechar {
