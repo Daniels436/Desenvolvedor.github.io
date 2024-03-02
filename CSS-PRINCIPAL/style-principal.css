@@ -477,8 +477,9 @@ section.formacao.flex {
   margin-left: 20px;
   margin-bottom: 20px;
   transform: scale(1.05);
-  box-shadow: 0 0 8px #501969;
-  border: 3px solid #530391;
+  box-shadow: 0 0 8px #330647;
+  border: 3px solid #5b089b;
+  
 }
 
 .formacao .txt-formacao {
