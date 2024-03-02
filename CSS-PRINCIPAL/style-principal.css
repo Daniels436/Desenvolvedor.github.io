@@ -1615,8 +1615,12 @@ footer p {
 
 
 
-/*     
-@media screen and (max-width: 1000px) {}
+     
+@media screen and (min-width: 1000px) {
+  .fixed-nav-mobile {
+    display: none;
+  }
+}
 
 
 
