@@ -292,7 +292,11 @@ section.servicos-box {
   letter-spacing: 1px;
   line-height: 20px;
 }
-
+.servicos-box a {
+  text-decoration: none;
+  color: #dfe3e7;
+  cursor: pointer;
+}
 .servicos-box:hover {
   transform: scale(1.03);
   box-shadow: 0 0 12px #410d58f5;
@@ -1147,8 +1151,8 @@ footer p {
     text-align: center;
     padding: 10px;
     box-sizing: border-box;
-    border: 1px rgba(5, 238, 255, 0.089) solid;
-    background: linear-gradient(to bottom, #020505, #050e0e);
+    border: 1px rgba(3, 175, 187, 0.068) solid;
+    background: linear-gradient(to bottom, #081414, #000000);
   
   }
 
