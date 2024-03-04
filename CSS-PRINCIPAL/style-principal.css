@@ -62,7 +62,7 @@ h2.titulo span {
 
 header {
   margin-top: 0px;
-  border-radius: 15px;
+
 
 }
 
@@ -115,7 +115,7 @@ header nav ul {
 
 header nav.menu-desktop ul li {
   display: inline-block;
-
+ 
 }
 
 header .contato button {
@@ -130,7 +130,9 @@ header .contato button {
 
 }
 
-
+header {
+  background-color: #000
+}
 header .contato button:hover {
   box-shadow: 0px 0px 0px #8d6ffa;
   color: #ffe3ae;
@@ -169,6 +171,39 @@ section.topo-do-site.flexo {
   align-items: center;
   margin-left: 15px;
 }
+.video-background {
+  position: fixed; /* Alteramos a posição para 'fixed' para que o vídeo fique fixo no plano de fundo */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+section .topo-do-site-container {
+  position: relative;
+}
+.topo-do-site-container {
+  background-color: rgba(3, 0, 0, 0.692);
+  z-index: 3;
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  animation: slowLoop 10s infinite linear;
+}
+
+body section {
+  background-color: rgba(3, 0, 0, 0.863);
+ 
+}
+
 
 .topo-do-site h1 {
   color: #dfe3e7;
@@ -1687,7 +1722,10 @@ footer p {
 /*TAMANHO-DAS-FONTES-PRINCIPAIS-MOBILE-460PX*/
 
 @media (min-width: 280px) and (max-width:460px) {
-
+  
+  .video-background {
+    display: none;
+  }
   .topo-do-site-container {
     width: 90% !important;
     margin-top: 90px;
