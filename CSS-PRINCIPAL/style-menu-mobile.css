@@ -31,20 +31,20 @@
 }
 
 .menu-mobile::-webkit-scrollbar {
-    width: 8px; /* Largura da barra de rolagem */
+    width: 8px; /* Largura da barra  */
   }
   
   .menu-mobile::-webkit-scrollbar-track {
-    background: #f5f3f300; /* Cor de fundo da barra de rolagem */
+    background: #f5f3f300; /* Cor de fundo */
   }
   
   .menu-mobile::-webkit-scrollbar-thumb {
-    background-color: #3c7fac98; /* Cor do indicador da barra de rolagem */
-    border-radius: 6px; /* Borda arredondada do indicador */
+    background-color: #022480; /* Cor da barra*/
+    border-radius: 6px; 
   }
   
   .menu-mobile::-webkit-scrollbar-thumb:hover {
-    background-color: #5613649d; /* Cor do indicador ao passar o mouse */
+    background-color: #a205c2; /* Cor passar o mouse */
   }
 
 .menu-mobile .btn-fechar {
