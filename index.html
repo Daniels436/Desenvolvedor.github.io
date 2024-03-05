@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="CSS-PRINCIPAL/style-principal.css">
     <link rel="stylesheet" href="CSS-PRINCIPAL/style-menu-mobile.css">
     <html rel>
-        
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#000">
     <title>Daniel | Desenvolvedor e Analista de Sistemas</title>
 </head>
 
@@ -54,7 +55,11 @@
 
     </header>
 
-
+    <div id="install-banner" class="install-banner hidden">
+        <p></p>
+        <button id="install-button">APP - PWA</button>
+    </div>
+   
 
 
     <main>
@@ -63,8 +68,10 @@
         <!-- ===============================    TOPO-HOME    =====================================   -->
         <section class="topo-do-site-container">
             <video autoplay loop muted class="video-background">
-                <source src="ARTIGOS/Imgs-artigos/network-web-aplicativos-desenvolvimento-video-smatphones-negocios-matrix (1080p).mp4"
-                type="video/mp4"></video>
+                <source
+                    src="ARTIGOS/Imgs-artigos/network-web-aplicativos-desenvolvimento-video-smatphones-negocios-matrix (1080p).mp4"
+                    type="video/mp4">
+            </video>
             <section class="topo-do-site">
 
 
@@ -139,12 +146,13 @@
                     </div>
                     <div class="servicos-box">
                         <a href="#contato">
-                        <i class="ico-04"><img src="img/personal-consult.png" alt=""></i>
-                        <h3>Suporte e Consultoria</h3>
-                        <p> Ofereço soluções
-                            personalizadas. Podemos trabalhar
-                            juntos para aprimorar essa abordagem
-                            e alcançar resultados ainda melhores.</p> </a>
+                            <i class="ico-04"><img src="img/personal-consult.png" alt=""></i>
+                            <h3>Suporte e Consultoria</h3>
+                            <p> Ofereço soluções
+                                personalizadas. Podemos trabalhar
+                                juntos para aprimorar essa abordagem
+                                e alcançar resultados ainda melhores.</p>
+                        </a>
 
                     </div>
                 </div>
@@ -468,12 +476,29 @@
         <div class="fixed-nav-mobile">
             <img class="icon" src="img/logo-03.png" alt="Ícone">
         </div>
+
+
+       
     </main>
     <script src="files/process-form.php"></script>
     <script src="JS/form-pattern.js"></script>
     <script src="JS/slid-cel.js"></script>
     <script src="JS/menu-mobile-script.js" defer> </script>
+    <script src="install-prompt-pwa.js"></script>
 
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/service-worker.js')
+                .then(function (registration) {
+                    console.log('Service Worker registrado com sucesso:', registration);
+                })
+                .catch(function (error) {
+                    console.log('Falha ao registrar o Service Worker:', error);
+                });
+        }
+    </script>
+   
 </body>
 
 </html>

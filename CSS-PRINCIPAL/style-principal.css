@@ -1130,6 +1130,36 @@ footer p {
 
 
 
+/* info-pwa */
+
+.install-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f5f5f500;
+  padding: 10px;
+  text-align: left;
+  z-index: 99999;
+  margin-bottom: 30px;
+}
+
+.install-banner p {
+  margin: 0;
+  font-size: 16px;
+}
+
+#install-button {
+  background-color: #319bcc;
+  color: #0a0a0a;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
 
 
 
@@ -1860,3 +1890,4 @@ footer p {
   font-weight: 500;
   color: #000;
 }
+
