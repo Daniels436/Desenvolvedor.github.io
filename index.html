@@ -9,7 +9,6 @@
     <link rel="icon" type="img/png" href="favicon.png">
     <link rel="stylesheet" href="CSS-PRINCIPAL/style-principal.css">
     <link rel="stylesheet" href="CSS-PRINCIPAL/style-menu-mobile.css">
-    <html rel>
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#000">
     <title>Daniel | Desenvolvedor e Analista de Sistemas</title>
@@ -54,13 +53,10 @@
         </div> <!--interface-->
 
     </header>
-
     <div id="install-banner" class="install-banner hidden">
-        <p></p>
-        <button id="install-button">APP - PWA</button>
-    </div>
-   
-
+        <p>aplicativo!</p>
+        <button id="install-button">PWA</button>
+      </div>
 
     <main>
 
@@ -483,10 +479,9 @@
     <script src="files/process-form.php"></script>
     <script src="JS/form-pattern.js"></script>
     <script src="JS/slid-cel.js"></script>
-    <script src="JS/menu-mobile-script.js" defer> </script>
+    <script src="JS/menu-mobile-script.js"> </script>
     <script src="install-prompt-pwa.js"></script>
-
-
+    <script src="service-worker.js"></script>
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/service-worker.js')

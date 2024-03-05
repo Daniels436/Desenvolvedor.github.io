@@ -4,8 +4,8 @@ window.addEventListener('beforeinstallprompt', (event) => {
   event.preventDefault();
   deferredPrompt = event;
 
-  const installBanner = document.getElementById('install-banner');
-  installBanner.classList.remove('hidden');
+  const installButton = document.getElementById('install-button');
+  installButton.classList.remove('hidden');
 });
 
 const installButton = document.getElementById('install-button');
@@ -13,8 +13,7 @@ const installButton = document.getElementById('install-button');
 installButton.addEventListener('click', () => {
   deferredPrompt.prompt();
 
-  const installBanner = document.getElementById('install-banner');
-  installBanner.classList.add('hidden');
+  installButton.classList.add('hidden');
 });
 
 window.addEventListener('appinstalled', (event) => {
