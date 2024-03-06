@@ -46,7 +46,7 @@ Bem-vindo ao meu  Projeto sou DANIEL P. SOUZA! Este repositório contém o códi
   - `X-antigo-twitter-mobile.png`: Imagem relacionada ao Twitter mobile.
 
 - `menu-mobile-artigos-script.js`: Script para o menu mobile dos artigos.
-- `none.css`: Arquivo CSS vazio.
+- `none.css`: Arquivo CSS para sumir com elemetos.
 - `script-artigos.js`: Script relacionado aos artigos.
 - `style-artigos.css`: Folha de estilos para os artigos.
 - `style-menu-mobile-artigos.css`: Folha de estilos para o menu mobile dos artigos.
@@ -70,6 +70,8 @@ Este projeto é licenciado sob a [Licença](link-para-licenca). Leia o arquivo [
 
 ## Contato
 
-Se tiver alguma dúvida ou precisar de mais informações, entre em contato comigo pelo e-mail [pereiradesouzadaniel436@gmail.com](homepage:daniels436.github.io).
+Se tiver alguma dúvida ou precisar de mais informações, entre em contato comigo  homepage:[ daniels436.github.io](homepage:daniels436.github.io).
+# Imagens do Projeto
 
+![Texto alternativo](img/Macbook-Air-daniels436.github.io.png)
 Espero que aproveite o projeto! Obrigado pela visita!

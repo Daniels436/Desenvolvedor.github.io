@@ -1,3 +1,5 @@
+https://daniels436.github.io/TERMOS/licenca.html
+
 Declaração de Licença
 
  Este documento estabelece os termos e condições para o uso dos sites, aplicativos e software desenvolvidos por Daniel P. Souza, Analista de Sistemas e Desenvolvedor, doravante referido como "o Licenciante". Ao utilizar qualquer um dos produtos desenvolvidos pelo Licenciante, você concorda em cumprir os seguintes termos:

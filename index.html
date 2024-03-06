@@ -53,10 +53,7 @@
         </div> <!--interface-->
 
     </header>
-    <div id="install-banner" class="install-banner hidden">
-        <p>aplicativo!</p>
-        <button id="install-button">PWA</button>
-      </div>
+    
 
     <main>
 
@@ -457,10 +454,12 @@
                     </div>
 
                 </div>
+                
             </div>
 
             <div class="footer1">
-
+                <button id="install-button" class="hidden">Install</button>
+  
                 <p><a href="http://daniels436.github.io/TERMOS/termos-de-uso.html"> &copy; Termos de Uso</a></p>
                 <div id="footer-copyright">
                     &copy; 2024 Todos os direitos reservados.Daniel P. S.
@@ -472,15 +471,14 @@
         <div class="fixed-nav-mobile">
             <img class="icon" src="img/logo-03.png" alt="Ícone">
         </div>
-
-
+        
        
     </main>
     <script src="files/process-form.php"></script>
     <script src="JS/form-pattern.js"></script>
     <script src="JS/slid-cel.js"></script>
     <script src="JS/menu-mobile-script.js"> </script>
-    <script src="install-prompt-pwa.js"></script>
+    <script src="install-prompt.js"></script>
     <script src="service-worker.js"></script>
     <script>
         if ('serviceWorker' in navigator) {
@@ -493,7 +491,10 @@
                 });
         }
     </script>
-   
+
+    
+  
+
 </body>
 
 </html>
