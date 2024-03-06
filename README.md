@@ -55,10 +55,7 @@ Bem-vindo ao meu  Projeto sou DANIEL P. SOUZA! Este repositório contém o códi
 
 - Arquivos de imagem relacionados ao projeto.
 
-## Como Executar o Projeto
 
-1. Clone este repositório em sua máquina local.
-2. Abra o arquivo `index.html` em seu navegador preferido.
 
 ## Contribuição
 
@@ -68,9 +65,6 @@ Se você quiser contribuir com este projeto, fique à vontade para abrir uma iss
 
 Este projeto é licenciado sob a [Licença](link-para-licenca). Leia o arquivo [LICENSE.md](link-para-arquivo-de-licenca) para obter mais informações.
 
-## Contato
-
-Se tiver alguma dúvida ou precisar de mais informações, entre em contato comigo  homepage: [ daniels436.github.io](https//daniels436.github.io/)
 # Imagens do Projeto
 
 ![Texto alternativo](img/Macbook-Air-daniels436.github.io.png)
