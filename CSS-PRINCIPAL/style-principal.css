@@ -968,19 +968,19 @@ footer p {
 
 .btn-topo {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 100px;
+  bottom: 16px;
+  right: 16px;
+  width: 80px;
   height: 50px;
 }
 
 .btn-topo {
-  background-color: #1ea803;
-  color: #fff;
+  background-color: #13cf02;
+  color: #070707;
   text-align: center;
   line-height: 50px;
   font-size: 20px;
-  border-radius: 8px;
+  border-radius: 6px;
   text-decoration: none;
   transition: background-color 0.3s;
   z-index: 7777;
@@ -988,7 +988,7 @@ footer p {
 }
 
 .btn-topo:hover {
-  background-color: #04d404;
+  background-color: #03a303;
 }
 
 .menu-arrow {
