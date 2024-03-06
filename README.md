@@ -70,7 +70,7 @@ Este projeto é licenciado sob a [Licença](link-para-licenca). Leia o arquivo [
 
 ## Contato
 
-Se tiver alguma dúvida ou precisar de mais informações, entre em contato comigo  homepage: [ daniels436.github.io](https//daniels436.github.io)
+Se tiver alguma dúvida ou precisar de mais informações, entre em contato comigo  homepage: [ daniels436.github.io](https//daniels436.github.io/)
 # Imagens do Projeto
 
 ![Texto alternativo](img/Macbook-Air-daniels436.github.io.png)
