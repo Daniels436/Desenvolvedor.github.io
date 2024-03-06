@@ -1,0 +1,14 @@
+{
+    "name": "Deev-Info",
+    "short_name": "Deev-Info",
+    "icons": [
+        {
+            "src": "/android-chrome-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#351079",
+    "background_color": "#351079",
+    "display": "standalone"
+}
