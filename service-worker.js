@@ -14,7 +14,7 @@ self.addEventListener('install', function(event) {
         'JS/slid-cel.js',
         'TERMOS/imgs-termos/logo-daniel-pixelado 2.png',
         'TERMOS/licenca.html',
-        'TERMOS/politicas-de-privasidade.html',
+        'TERMOS/politicas-de-privacidade.html',
         'TERMOS/styles-termos-de-uso.css',
         'TERMOS/termos-de-uso.html',
         'ARTIGOS/artigos.html',
@@ -60,7 +60,23 @@ self.addEventListener('install', function(event) {
         'img/servicos- web-page.png',
         'img/spas.png',
         'img/view-source_https___daniels436.github.io.html',
-        'img/X-antigo-twitter-mobile.png'
+        'img/X-antigo-twitter-mobile.png',
+        'favicon-package',
+        'link-para-arquivo-de-licenca',
+        'link-para-licenca',
+        'android-chrome-96x96.png',
+        'apple-touch-icon.png',
+        'browserconfig.xml',
+        'favicon-16x16.png',
+        'favicon-32x32.png',
+        'favicon.ico',
+        'favicon.png',
+        'index.js',
+        'install-prompt.js',
+        'mstile-150x150.png',
+        'safari-pinned-tab.svg',
+        'service-worker.js',
+        'site.webmanifest'
       ]);
     })
   );

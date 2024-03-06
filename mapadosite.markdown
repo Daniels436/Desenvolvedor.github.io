@@ -83,5 +83,33 @@ Arquivos e diretórios organizados:
 - BingSiteAuth.xml
 
 
+- favicon-package
+
+- link-para-arquivo-de-licenca
+- link-para-licenca
+
+
+- android-chrome-96x96.png
+- apple-touch-icon.png
+
+- browserconfig.xml
+- favicon-16x16.png
+- favicon-32x32.png
+- favicon.ico
+- favicon.png
+
+
+- index.js
+- install-prompt.js
+
+- mstile-150x150.png
+- safari-pinned-tab.svg
+- service-worker.js
+- site.webmanifest
+
+
+
+
+
 Espero que isso ajude! 
 Obrigado!
