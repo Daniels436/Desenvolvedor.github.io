@@ -11,8 +11,10 @@
     "theme_color": "#0000",
     "background_color": "#FFFFFF",
     "display": "standalone",
+    "purpose": "any maskable",
     "start_url": "/index.html",
     "scope": "/",
+    
     "serviceworker": {
       "src": "service-worker.js",
       "scope": "/"

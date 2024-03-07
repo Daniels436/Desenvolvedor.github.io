@@ -17,6 +17,10 @@
     <link rel="stylesheet" href="CSS-PRINCIPAL/style-menu-mobile.css">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#000">
+    <meta name="description" content=" Ola! Meu nome e Damiel sou desenvolvedor e analista de sistemas especializado 
+    em serviços web e gestão de projetos de tecnologia. Ofereço soluções personalizadas para atender
+     às necessidades do seu negócio, combinando expertise técnica e habilidades de gerenciamento. 
+     Entre em contato para obter serviços de desenvolvimento web e consultoria em projetos de tecnologia. Obrigado!">
     <title>Daniel | Desenvolvedor e Analista de Sistemas</title>
 </head>
 
@@ -290,17 +294,28 @@
 
         <!-- ===============================    FOOTER-PAGE   =====================================   -->
         <div class="rodape" id="rodape">
-            <button id="install-button" class="hidden">PWA</button>
-            <div class="menu">
+            <button id="install-button" class="hidden" onclick="hideMessage()">PWA</button>
+            <div id="message" class="menu">
                 <div class="menu-icon" onclick="toggleMenu()"><span class="hidden">?</span> </div>
                 <div class="menu-content">
-               
-                    <ul> <p>PWA é a junção da usabilidade do APP-Nativo com a versatilidade das Aplicações-WEB.</p>
+                    <ul>
+                        <p>PWA é a junção da usabilidade do APP-Nativo com a versatilidade das Aplicações-WEB.</p>
                         <p>Melhora o desempenho mesmo sem internet</p>
                         <p>Acesso rápido e fácil com um clique</p>
                         <p>Receba notificações para ficar sempre atualizado</p>
-                      </ul>
+                    </ul>
                 </div>
+            </div>
+            
+            <script>
+                function hideMessage() {
+                    var message = document.getElementById("message");
+                    var button = document.getElementById("install-button");
+                    
+                    message.style.display = "none";
+                    button.style.display = "none";
+                }
+            </script>
         </div>
         <footer>
             <h1>REFERÊNCIAS E AGRADECIMENTOS | MATERIAL DEDICADO À COMUNIDADE.</h1>
