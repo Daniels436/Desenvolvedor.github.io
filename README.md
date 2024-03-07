@@ -47,7 +47,7 @@ Bem-vindo ao meu  Projeto sou DANIEL P. SOUZA! Este repositório contém o códi
   - `X-antigo-twitter-mobile.png`: Imagem relacionada ao Twitter mobile.
 
 - `menu-mobile-artigos-script.js`: Script para o menu mobile dos artigos.
-- `none.css`: Arquivo CSS para sumir com elemetos.
+- `none.css`: Arquivo CSS para retirar elemetos do menu.
 - `script-artigos.js`: Script relacionado aos artigos.
 - `style-artigos.css`: Folha de estilos para os artigos.
 - `style-menu-mobile-artigos.css`: Folha de estilos para o menu mobile dos artigos.
