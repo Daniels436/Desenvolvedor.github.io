@@ -56,7 +56,7 @@
             </nav>
 
             <div class="contato">
-                <a href="#rodape">
+                <a href="#rodape" alt="esse botao leva para o rodapé ">
                     <button>PÉ ⌵ </button>
                 </a>
             </div>
@@ -293,10 +293,11 @@
 
 
         <!-- ===============================    FOOTER-PAGE   =====================================   -->
-        <div class="rodape" id="rodape">
+       
+        <div class="rodape" id="rodape" alt=" um section entre o footer e a area principla da pagina rodapé">
             <button id="install-button" class="hidden" onclick="hideMessage()">PWA</button>
             <div id="message" class="menu">
-                <div class="menu-icon" onclick="toggleMenu()"><span class="hidden">?</span> </div>
+                <div class="menu-icon" onclick="toggleMenu()"><span class="">PWA</span> </div>
                 <div class="menu-content">
                     <ul>
                         <p>PWA é a junção da usabilidade do APP-Nativo com a versatilidade das Aplicações-WEB.</p>
@@ -306,14 +307,23 @@
                     </ul>
                 </div>
             </div>
-            
+        
             <script>
                 function hideMessage() {
                     var message = document.getElementById("message");
                     var button = document.getElementById("install-button");
-                    
+        
                     message.style.display = "none";
                     button.style.display = "none";
+                }
+        
+                // Verificar se o PWA está instalado
+                if (window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true) {
+                    var message = document.getElementById("message");
+                    var button = document.getElementById("install-button");
+                    
+                    message.style.display = "block";
+                    button.style.display = "block";
                 }
             </script>
         </div>
