@@ -1134,18 +1134,22 @@ footer p {
 
 
 #install-button {
-  background-color: #319bcc;
+  background-color: #09b1ff;
   color: #0a0a0a;
   border: none;
-  padding: 8px 15px;
+  padding: 10px 20px;
   font-size: 14px;
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: 5px;
   font-weight: 700;
+  margin-top: 6px; 
+  padding-top:  6px;
+  margin-left: 20px;
+margin-bottom: 10px;
 }
 
-.hidden {
-  display: none;
+.hidden {display: block;
+
 }
 
 
