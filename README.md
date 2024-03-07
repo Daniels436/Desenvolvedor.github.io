@@ -1,7 +1,9 @@
 # Meu Projeto Osso
 
 Bem-vindo ao meu  Projeto sou DANIEL P. SOUZA! Este repositório contém o código-fonte e os arquivos relacionados a uma Homepage especial que estou desenvolvendo. O principal motivo da criação da pagina é aprimorar as habilidades em frontend, CSS, JavaScript e HTML, além de desenvolver projetos que beneficiem a comunidade em termos profissionais e educacionais. Obrigado!
- Informações importantes para você começar a compreender o projeto:
+
+
+ ## Informações importantes para você começar a compreender o projeto:
 
 ## Estrutura de Arquivos e Diretórios
 
