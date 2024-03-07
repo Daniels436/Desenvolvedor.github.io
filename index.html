@@ -56,9 +56,13 @@
             </nav>
 
             <div class="contato">
-                <a href="#rodape" alt="esse botao leva para o rodapé ">
-                    <button>PÉ ⌵ </button>
+                <a href="#rodape" alt="esse botao leva para o rodapé">
+
+                    <button>PÉ ⌵
+
+                    </button>
                 </a>
+
             </div>
         </div> <!--interface-->
 
@@ -293,35 +297,35 @@
 
 
         <!-- ===============================    FOOTER-PAGE   =====================================   -->
-       
+
         <div class="rodape" id="rodape" alt=" um section entre o footer e a area principla da pagina rodapé">
             <button id="install-button" class="hidden" onclick="hideMessage()">PWA</button>
             <div id="message" class="menu">
-                <div class="menu-icon" onclick="toggleMenu()"><span class="">PWA</span> </div>
+                <div class="menu-icon" onclick="toggleMenu()"><span class="">MEU-APP</span> </div>
                 <div class="menu-content">
                     <ul>
                         <p>PWA é a junção da usabilidade do APP-Nativo com a versatilidade das Aplicações-WEB.</p>
-                        <p>Melhora o desempenho mesmo sem internet</p>
-                        <p>Acesso rápido e fácil com um clique</p>
-                        <p>Receba notificações para ficar sempre atualizado</p>
+                        <p>Funciona mesmo Off-line</p>
+                        <p>Isso é apenas um informativo de funcionalidade! </p>
+                        <p>Não estou, de forma alguma, incentivando a usar esse recurso. Obrigado!</p>
                     </ul>
                 </div>
             </div>
-        
+
             <script>
                 function hideMessage() {
                     var message = document.getElementById("message");
                     var button = document.getElementById("install-button");
-        
+
                     message.style.display = "none";
                     button.style.display = "none";
                 }
-        
+
                 // Verificar se o PWA está instalado
                 if (window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true) {
                     var message = document.getElementById("message");
                     var button = document.getElementById("install-button");
-                    
+
                     message.style.display = "block";
                     button.style.display = "block";
                 }
@@ -450,7 +454,7 @@
                 </ul>
             </div>
 
-            
+
         </footer>
 
 
@@ -509,7 +513,7 @@
                 </div>
 
                 <div class="footer1">
-                    
+
 
                     <p><a href="http://daniels436.github.io/TERMOS/termos-de-uso.html"> &copy; Termos de Uso</a></p>
                     <div id="footer-copyright">
@@ -520,7 +524,7 @@
             </div>
 
             <div class="fixed-nav-mobile">
-            
+
             </div>
 
 
